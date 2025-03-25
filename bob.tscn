@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://c0lok6g2yht6x"]
+
+[ext_resource type="Texture2D" uid="uid://dyfniun2083if" path="res://textures/Tiles093_1K-JPG_Color.jpg" id="1_5jjii"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3exil"]
+albedo_texture = ExtResource("1_5jjii")
+
+[sub_resource type="SphereMesh" id="SphereMesh_n0cen"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v54ho"]
+
+[node name="bob" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.35, 11.1, 1.93715e-07)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0.6)
+material_override = SubResource("StandardMaterial3D_3exil")
+mesh = SubResource("SphereMesh_n0cen")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0.6)
+shape = SubResource("BoxShape3D_v54ho")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(-1, -3.82137e-15, 8.74228e-08, -8.74228e-08, 4.37114e-08, -1, 0, -1, -4.37114e-08, 0, -1.6, 1.4)
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="."]
+transform = Transform3D(1, -8.74228e-08, -8.74228e-08, 8.74228e-08, -4.37114e-08, 1, -8.74228e-08, -1, -4.37114e-08, 0, 4.4, 1)
