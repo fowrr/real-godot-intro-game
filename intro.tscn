@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=9 format=3 uid="uid://07utrn1em5wq"]
 
 [ext_resource type="Texture2D" uid="uid://bw62s12sqbrba" path="res://textures/grass texture godot.jpg" id="1_46jyq"]
 [ext_resource type="Texture2D" uid="uid://dlxgxw7hl3h4e" path="res://textures/mario grass-ground texture.jpg" id="2_bjuts"]
 [ext_resource type="PackedScene" uid="uid://c0lok6g2yht6x" path="res://bob.tscn" id="3_r1tvm"]
 [ext_resource type="Script" path="res://bob.gd" id="4_x1hif"]
+[ext_resource type="PackedScene" uid="uid://b2l1obwd3u8lt" path="res://coin.tscn" id="5_8fiyq"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52gln"]
 albedo_texture = ExtResource("1_46jyq")
@@ -182,3 +183,5 @@ size = Vector3(1.98, 2, 3.6)
 transform = Transform3D(-0.999999, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -0.999999, -2.75741, 4.76837e-07, -2.8)
 operation = 2
 size = Vector3(8.8, 1.6, 2.4)
+
+[node name="Area3D" parent="." instance=ExtResource("5_8fiyq")]
