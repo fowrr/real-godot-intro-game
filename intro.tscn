@@ -1,10 +1,13 @@
-[gd_scene load_steps=9 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=12 format=3 uid="uid://07utrn1em5wq"]
 
 [ext_resource type="Texture2D" uid="uid://bw62s12sqbrba" path="res://textures/grass texture godot.jpg" id="1_46jyq"]
 [ext_resource type="Texture2D" uid="uid://dlxgxw7hl3h4e" path="res://textures/mario grass-ground texture.jpg" id="2_bjuts"]
 [ext_resource type="PackedScene" uid="uid://c0lok6g2yht6x" path="res://bob.tscn" id="3_r1tvm"]
 [ext_resource type="Script" path="res://bob.gd" id="4_x1hif"]
 [ext_resource type="PackedScene" uid="uid://b2l1obwd3u8lt" path="res://coin.tscn" id="5_8fiyq"]
+[ext_resource type="Script" path="res://coin label.gd" id="5_smnps"]
+[ext_resource type="Script" path="res://time label.gd" id="6_y3lyr"]
+[ext_resource type="Script" path="res://newcoin.gd" id="7_0vkbb"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52gln"]
 albedo_texture = ExtResource("1_46jyq")
@@ -53,7 +56,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.95, 20.5, 1.93715e-07)
 script = ExtResource("4_x1hif")
 
 [node name="Camera3D" type="Camera3D" parent="jennifer"]
-transform = Transform3D(-1, 4.37114e-08, -7.57104e-08, 0, 0.866025, 0.5, 8.74228e-08, 0.5, -0.866025, 0, 2, -2.2)
+transform = Transform3D(-1, 4.37114e-08, -7.57104e-08, 0, 0.866025, 0.5, 8.74228e-08, 0.5, -0.866025, 0, 1.6, -2.2)
 
 [node name="maze walls" type="Node3D" parent="."]
 transform = Transform3D(1.2, 0, 0, 0, 1, 0, 0, 0, 1.155, 2.4, -0.2, 2.6)
@@ -184,4 +187,45 @@ transform = Transform3D(-0.999999, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -0.
 operation = 2
 size = Vector3(8.8, 1.6, 2.4)
 
-[node name="Area3D" parent="." instance=ExtResource("5_8fiyq")]
+[node name="HUD" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1155.0
+offset_bottom = 646.0
+
+[node name="coin label" type="Label" parent="HUD"]
+layout_mode = 0
+offset_left = 15.0
+offset_top = 16.0
+offset_right = 84.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 50
+text = "Coins = 0"
+script = ExtResource("5_smnps")
+
+[node name="time label" type="Label" parent="HUD"]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 70.0
+offset_right = 257.0
+offset_bottom = 142.0
+theme_override_font_sizes/font_size = 50
+text = "Time = 5"
+script = ExtResource("6_y3lyr")
+
+[node name="Timer" type="Timer" parent="HUD/time label"]
+autostart = true
+
+[node name="Coin" parent="." instance=ExtResource("5_8fiyq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+script = ExtResource("7_0vkbb")
+
+[node name="Timer" type="Timer" parent="Coin"]
+wait_time = 5.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]
+[connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
+[connection signal="coinCollected" from="Coin" to="HUD/coin label" method="_on_coin_coin_collected"]
+[connection signal="timeout" from="Coin/Timer" to="Coin" method="_on_timer_timeout"]

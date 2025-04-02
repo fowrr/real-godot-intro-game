@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgepko3sivv24"]
+
+[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_2scqe"]
+[ext_resource type="ArrayMesh" uid="uid://v26npvndik57" path="res://Funky Esboo/tinker.obj" id="2_daaky"]
+
+[node name="Jenny" type="CharacterBody3D"]
+script = ExtResource("1_2scqe")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+
+[node name="Tinker" type="MeshInstance3D" parent="CSGSphere3D"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, -13.6, 0)
+mesh = ExtResource("2_daaky")
+skeleton = NodePath("../..")
