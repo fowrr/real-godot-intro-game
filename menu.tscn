@@ -1,0 +1,53 @@
+[gd_scene load_steps=3 format=3 uid="uid://bag4dcyq270a4"]
+
+[ext_resource type="Script" path="res://start botten.gd" id="1_gdl1n"]
+[ext_resource type="Script" path="res://quit botten.gd" id="2_1k2su"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -3.0
+offset_top = 1.0
+offset_right = 1150.0
+offset_bottom = 649.0
+color = Color(0, 0.576471, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 262.0
+offset_top = 119.0
+offset_right = 968.0
+offset_bottom = 225.0
+theme_override_colors/font_color = Color(0.498039, 0.282353, 0.14902, 1)
+theme_override_font_sizes/font_size = 75
+text = "MARIO MAZE GAME"
+
+[node name="start botten" type="Button" parent="."]
+layout_mode = 0
+offset_left = 489.0
+offset_top = 261.0
+offset_right = 636.0
+offset_bottom = 324.0
+theme_override_font_sizes/font_size = 40
+text = "START"
+script = ExtResource("1_gdl1n")
+
+[node name="quit botten" type="Button" parent="."]
+layout_mode = 0
+offset_left = 493.0
+offset_top = 386.0
+offset_right = 640.0
+offset_bottom = 449.0
+theme_override_font_sizes/font_size = 40
+text = "QUIT"
+script = ExtResource("2_1k2su")
+
+[connection signal="pressed" from="start botten" to="start botten" method="_on_pressed"]
+[connection signal="pressed" from="quit botten" to="quit botten" method="_on_pressed"]

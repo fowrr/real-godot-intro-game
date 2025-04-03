@@ -7,7 +7,17 @@ const JUMP_VELOCITY = 0.0
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
+var mouse_sens = 0.3
+var camera_anglev=0
 
+func _input(event):  		
+	if event is InputEventMouseMotion:
+		$Camera.rotate_y(deg_to_rad(-event.relative.x*mouse_sens))
+		var changev=-event.relative.y*mouse_sens
+		if camera_anglev+changev>-50 and camera_anglev+changev<50:
+			camera_anglev+=changev
+			$Camera.rotate_x(deg_to_rad(changev))
+			
 func _physics_process(delta):
 	# Add the gravity.
 	if not is_on_floor():
@@ -22,6 +32,15 @@ func _physics_process(delta):
 	if direction:
 		velocity.x = direction.x * -SPEED
 		velocity.z = direction.z * -SPEED
+		#$CSGSphere3D.rotate_x(deg_to_rad(2))
+		if Input.is_action_pressed("ui_left"):
+			$CSGSphere3D.rotate_z(deg_to_rad(-2))
+		if Input.is_action_pressed("ui_right"):
+			$CSGSphere3D.rotate_z(deg_to_rad(2))
+		if Input.is_action_pressed("ui_up"):
+			$CSGSphere3D.rotate_x(deg_to_rad(2))
+		if Input.is_action_pressed("ui_down"):
+			$CSGSphere3D.rotate_x(deg_to_rad(-2))
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 		velocity.z = move_toward(velocity.z, 0, SPEED)
