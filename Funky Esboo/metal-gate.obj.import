@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dihkkrkqr52sy"
+path="res://.godot/imported/metal-gate.obj-c6df9c054ce17b55f9a2fa2e76fc4a88.mesh"
+
+[deps]
+
+files=["res://.godot/imported/metal-gate.obj-c6df9c054ce17b55f9a2fa2e76fc4a88.mesh"]
+
+source_file="res://Funky Esboo/metal-gate.obj"
+dest_files=["res://.godot/imported/metal-gate.obj-c6df9c054ce17b55f9a2fa2e76fc4a88.mesh", "res://.godot/imported/metal-gate.obj-c6df9c054ce17b55f9a2fa2e76fc4a88.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

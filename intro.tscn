@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=14 format=3 uid="uid://07utrn1em5wq"]
 
 [ext_resource type="Texture2D" uid="uid://bw62s12sqbrba" path="res://textures/grass texture godot.jpg" id="1_46jyq"]
 [ext_resource type="Texture2D" uid="uid://dlxgxw7hl3h4e" path="res://textures/mario grass-ground texture.jpg" id="2_bjuts"]
@@ -8,6 +8,8 @@
 [ext_resource type="Script" path="res://coin label.gd" id="5_smnps"]
 [ext_resource type="Script" path="res://time label.gd" id="6_y3lyr"]
 [ext_resource type="Script" path="res://newcoin.gd" id="7_0vkbb"]
+[ext_resource type="ArrayMesh" uid="uid://y0c3uvovcb4d" path="res://Funky Esboo/wall-narrow-gate.obj" id="9_b0o4y"]
+[ext_resource type="ArrayMesh" uid="uid://dihkkrkqr52sy" path="res://Funky Esboo/metal-gate.obj" id="10_oqr3a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52gln"]
 albedo_texture = ExtResource("1_46jyq")
@@ -47,6 +49,11 @@ material = SubResource("StandardMaterial3D_v4j5y")
 transform = Transform3D(1, 5.24537e-08, 5.76204e-08, 8.74228e-08, -0.6, 5.03734e-15, 8.74228e-08, 0, -1, 0.0500006, 2.1, -15.85)
 size = Vector3(31.6, 6, 0.5)
 material = SubResource("StandardMaterial3D_lto7a")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="FLOOR/CSGBox3D6"]
+transform = Transform3D(1, -2.84217e-14, 0, -4.93666e-28, 1, -2.82344e-22, 5.68434e-14, 3.19075e-21, 1, -5.6, -1.66667, -0.200001)
+operation = 2
+size = Vector3(3.6, 8.8, 2)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.905788, -0.181264, 0.383003, 0.0523815, 0.849049, 0.525711, -0.420481, 0.496245, -0.759564, 16, 19, -30)
@@ -224,6 +231,16 @@ script = ExtResource("4_x1hif")
 
 [node name="Camera" type="Camera3D" parent="jennifer"]
 transform = Transform3D(-1, 4.37114e-08, -7.57104e-08, 0, 0.866025, 0.5, 8.74228e-08, 0.5, -0.866025, 0, 1.6, -2.2)
+
+[node name="Wall-narrow-gate" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.19422e-07, 9.01222e-07, -4.08, 4.37114e-08, 4.32, 8.51155e-07, 1, -1.88833e-07, 4.87241e-07, -5.40833, 0.333164, -15.942)
+mesh = ExtResource("9_b0o4y")
+skeleton = NodePath("../jennifer/Camera")
+
+[node name="Metal-gate2" type="MeshInstance3D" parent="."]
+transform = Transform3D(2.21177e-08, -1.16825e-06, 3.7, -3.02133e-08, 5.6, 7.71881e-07, 0.6912, 2.44784e-07, -1.18396e-07, -5.50833, 0.599833, -15.542)
+mesh = ExtResource("10_oqr3a")
+skeleton = NodePath("../jennifer/Camera")
 
 [connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
