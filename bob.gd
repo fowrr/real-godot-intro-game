@@ -9,14 +9,21 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 var mouse_sens = 0.3
 var camera_anglev=0
+@onready var camCollision = $axis/camCollision
+@onready var camera = $axis/Camera
 
+func _process(delta):
+	if camCollision.is_colliding():
+		camera.global_transform.origin = camCollision.get_collision_point()	
+	else:
+		camera.global_transform.origin = $axis/camHead.global_transform_origin
+		
+		
 func _input(event):  		
-	if event is InputEventMouseMotion:
-		$Camera.rotate_y(deg_to_rad(-event.relative.x*mouse_sens))
-		var changev=-event.relative.y*mouse_sens
-		if camera_anglev+changev>-50 and camera_anglev+changev<50:
-			camera_anglev+=changev
-			$Camera.rotate_x(deg_to_rad(changev))
+	if event is InputEventMouseMotion and Input.is_action_pressed("mouse_right"):
+			rotate_y(deg_to_rad(-event.relative.x*mouse_sens))
+			$"CSGSphere3D".rotate_y(deg_to_rad(event.relative.x*mouse_sens))
+	
 			
 func _physics_process(delta):
 	# Add the gravity.

@@ -4,7 +4,7 @@
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rreyg"]
 
-[node name="bob" type="CharacterBody3D"]
+[node name="jennifer" type="CharacterBody3D"]
 transform = Transform3D(1.2, 0, 0, 0, 1.2, 0, 0, 0, 1.2, -12.35, 11.5, 1.93715e-07)
 
 [node name="CSGSphere3D" type="CSGSphere3D" parent="."]
@@ -18,3 +18,16 @@ skeleton = NodePath("../..")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_rreyg")
+
+[node name="axis" type="CSGCylinder3D" parent="."]
+transform = Transform3D(0.544344, 0, 0, 0, 0.265871, 0, 0, 0, 0.544344, 0, 0, 0)
+
+[node name="Camera" type="Camera3D" parent="axis"]
+transform = Transform3D(-1.83707, 8.03011e-08, -1.39086e-07, 0, 3.25731, 1.88061, 1.60602e-07, 0.918538, -1.59095, 0, 6.01795, -4.04156)
+
+[node name="camCollision" type="RayCast3D" parent="axis"]
+transform = Transform3D(1.83707, -9.70285e-15, 7.34969e-23, -5.81315e-15, -5.67146, -1.44852, -9.19407e-15, 3.5859, -2.29097, 0, 0, -2.96558e-07)
+collide_with_areas = true
+
+[node name="camHead" type="CSGBox3D" parent="axis"]
+transform = Transform3D(0.300032, 0, 0, 0, 0.614285, 0, 0, 0, 0.300032, 0, 5.76371, -4.00331)

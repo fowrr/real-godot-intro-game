@@ -1,7 +1,7 @@
-[gd_scene load_steps=14 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=15 format=3 uid="uid://07utrn1em5wq"]
 
-[ext_resource type="Texture2D" uid="uid://bw62s12sqbrba" path="res://textures/grass texture godot.jpg" id="1_46jyq"]
-[ext_resource type="Texture2D" uid="uid://dlxgxw7hl3h4e" path="res://textures/mario grass-ground texture.jpg" id="2_bjuts"]
+[ext_resource type="Material" uid="uid://ch3fkarrcv4u6" path="res://grass_new_from.mariothing.tres" id="1_7gaq6"]
+[ext_resource type="Material" uid="uid://dspjnvkpirclk" path="res://Funky Esboo/new_standard_material_3d.tres" id="2_gpgow"]
 [ext_resource type="PackedScene" uid="uid://c0lok6g2yht6x" path="res://bob.tscn" id="3_r1tvm"]
 [ext_resource type="Script" path="res://bob.gd" id="4_x1hif"]
 [ext_resource type="PackedScene" uid="uid://b2l1obwd3u8lt" path="res://coin.tscn" id="5_8fiyq"]
@@ -10,17 +10,29 @@
 [ext_resource type="Script" path="res://newcoin.gd" id="7_0vkbb"]
 [ext_resource type="ArrayMesh" uid="uid://y0c3uvovcb4d" path="res://Funky Esboo/wall-narrow-gate.obj" id="9_b0o4y"]
 [ext_resource type="ArrayMesh" uid="uid://dihkkrkqr52sy" path="res://Funky Esboo/metal-gate.obj" id="10_oqr3a"]
+[ext_resource type="Script" path="res://AnimationPlayer.gd" id="11_jb38s"]
+[ext_resource type="PackedScene" uid="uid://btnb4r1bangis" path="res://Funky Esboo/Textures/maze skeleton1.tscn" id="13_vawmv"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_52gln"]
-albedo_texture = ExtResource("1_46jyq")
+[sub_resource type="Animation" id="Animation_kcpgx"]
+resource_name = "castle opening"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5, 2.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-5.37664, 0.9434, -15.542), Vector3(-5.37664, 4.40999, -15.542)]
+}
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_v4j5y"]
-albedo_texture = ExtResource("2_bjuts")
-uv1_scale = Vector3(2.3, 1.05, 1)
-
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lto7a"]
-albedo_texture = ExtResource("2_bjuts")
-uv1_scale = Vector3(2.295, 1.02, 1.03)
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_jmevt"]
+_data = {
+"castle opening": SubResource("Animation_kcpgx")
+}
 
 [node name="1st level build" type="Node3D"]
 
@@ -28,27 +40,27 @@ uv1_scale = Vector3(2.295, 1.02, 1.03)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6, 0)
 use_collision = true
 size = Vector3(32, 1, 32)
-material = SubResource("StandardMaterial3D_52gln")
+material = ExtResource("1_7gaq6")
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="FLOOR"]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 0.6, 0, -1, -2.62268e-08, -15.75, 2.1, 1.93715e-07)
 size = Vector3(0.5, 32, 6)
-material = SubResource("StandardMaterial3D_v4j5y")
+material = ExtResource("2_gpgow")
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="FLOOR"]
 transform = Transform3D(-1, 5.24537e-08, 1.49012e-08, -8.74228e-08, -0.6, 1.3027e-15, 0, 0, 1, 0, 2.1, 15.75)
 size = Vector3(32, 6, 0.5)
-material = SubResource("StandardMaterial3D_lto7a")
+material = ExtResource("2_gpgow")
 
 [node name="CSGBox3D5" type="CSGBox3D" parent="FLOOR"]
 transform = Transform3D(-1, 7.25216e-08, 1.90201e-15, 0, -4.37114e-08, 0.6, 8.74228e-08, 1, 2.62268e-08, 15.8, 2.1, 0.1)
 size = Vector3(0.5, 32, 6)
-material = SubResource("StandardMaterial3D_v4j5y")
+material = ExtResource("2_gpgow")
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="FLOOR"]
 transform = Transform3D(1, 5.24537e-08, 5.76204e-08, 8.74228e-08, -0.6, 5.03734e-15, 8.74228e-08, 0, -1, 0.0500006, 2.1, -15.85)
 size = Vector3(31.6, 6, 0.5)
-material = SubResource("StandardMaterial3D_lto7a")
+material = ExtResource("2_gpgow")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="FLOOR/CSGBox3D6"]
 transform = Transform3D(1, -2.84217e-14, 0, -4.93666e-28, 1, -2.82344e-22, 5.68434e-14, 3.19075e-21, 1, -5.6, -1.66667, -0.200001)
@@ -57,135 +69,6 @@ size = Vector3(3.6, 8.8, 2)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.905788, -0.181264, 0.383003, 0.0523815, 0.849049, 0.525711, -0.420481, 0.496245, -0.759564, 16, 19, -30)
-
-[node name="maze walls" type="Node3D" parent="."]
-transform = Transform3D(1.2, 0, 0, 0, 1, 0, 0, 0, 1.155, 2.4, -0.2, 2.6)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="maze walls"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.4, 1.9, -3.6)
-use_collision = true
-size = Vector3(14.4, 1.6, 1.2)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="maze walls/CSGBox3D2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.799999, 1, -4.76837e-07)
-operation = 2
-size = Vector3(2, 3.6, 2)
-
-[node name="CSGBox3D3" type="CSGBox3D" parent="maze walls"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -11, 1.9, -13)
-use_collision = true
-size = Vector3(5.6, 1.6, 4.8)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="maze walls/CSGBox3D3"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -1.20001, 0.5, 0)
-operation = 2
-size = Vector3(2.8, 2.8, 6)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="maze walls/CSGBox3D3"]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -1.80001, 0.6, -1.99999)
-operation = 2
-size = Vector3(3.2, 2.8, 6)
-
-[node name="t wall" type="CSGBox3D" parent="maze walls"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.1, 1.9, -6.6)
-use_collision = true
-size = Vector3(1, 1.6, 7.2)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="maze walls/t wall"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -1.9, -2.38419e-07, -0.599999)
-size = Vector3(1, 1.6, 2.8)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="maze walls"]
-transform = Transform3D(1, 0, 0, 0, 1.8, 0, 0, 0, 4.13, -12.5, 1.8, -6.0606)
-use_collision = true
-
-[node name="CSGBox3D4" type="CSGBox3D" parent="maze walls"]
-transform = Transform3D(0.833333, 0, 0, 0, 1, 0, 0, 0, 0.865801, -2.5, 2.1, -11.2554)
-size = Vector3(1.6, 1.6, 11.6)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="maze walls/CSGBox3D4"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2, 1.19209e-07, 16.6)
-size = Vector3(6.4, 1.6, 2.8)
-
-[node name="s" type="CSGBox3D" parent="."]
-transform = Transform3D(1.2, 0, 0, 0, 1, 0, 0, 0, 1.2, -7.4, 1.9, 8.8)
-use_collision = true
-size = Vector3(12.8, 1.6, 10.8)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="s"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, 1.19209e-07, -1.6)
-operation = 2
-size = Vector3(1.6, 1.6, 11.2)
-
-[node name="CSGBox3D3" type="CSGBox3D" parent="s"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.599999, 1.19209e-07, 1.90735e-06)
-operation = 2
-size = Vector3(2, 1.6, 8)
-
-[node name="CSGBox3D4" type="CSGBox3D" parent="s"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2, 3.57628e-07, 2.86102e-06)
-operation = 2
-size = Vector3(2, 1.6, 8)
-
-[node name="CSGBox3D5" type="CSGBox3D" parent="s"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.46667, -0.2, 3)
-operation = 2
-size = Vector3(1.98, 2, 3.6)
-
-[node name="CSGBox3D6" type="CSGBox3D" parent="s"]
-transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -1.6, 4.76837e-07, -2.8)
-operation = 2
-size = Vector3(4, 1.6, 2.4)
-
-[node name="CSGBox3D" type="CSGBox3D" parent="s"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.13333, 0, -6.83333)
-size = Vector3(1, 1.6, 3.6)
-
-[node name="wasgsa" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4, 1.9, -3)
-size = Vector3(9.6, 1.6, 1)
-
-[node name="CSGBox3D3" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1.9, -8)
-size = Vector3(1, 1.6, 11.2)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.7, 1.9, -13.1)
-size = Vector3(12.4, 1.6, 1)
-
-[node name="CSGBox3D4" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.2, 1.9, -5.8)
-size = Vector3(1, 1.6, 1)
-
-[node name="s2" type="CSGBox3D" parent="."]
-transform = Transform3D(-4.532e-08, 0, 1.0368, 0, 1.224, 0, -1.0368, 0, -4.532e-08, 10.32, 1.764, 6.16)
-use_collision = true
-size = Vector3(12.8, 1.6, 10.8)
-
-[node name="CSGBox3D2" type="CSGBox3D" parent="s2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, 1.19209e-07, -1.6)
-operation = 2
-size = Vector3(1.6, 1.6, 11.2)
-
-[node name="CSGBox3D3" type="CSGBox3D" parent="s2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.599999, 1.19209e-07, 1.90735e-06)
-operation = 2
-size = Vector3(2, 1.6, 8)
-
-[node name="CSGBox3D4" type="CSGBox3D" parent="s2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2, 3.57628e-07, 2.86102e-06)
-operation = 2
-size = Vector3(2, 1.6, 8)
-
-[node name="CSGBox3D5" type="CSGBox3D" parent="s2"]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.46667, -0.2, 3)
-operation = 2
-size = Vector3(1.98, 2, 3.6)
-
-[node name="CSGBox3D6" type="CSGBox3D" parent="s2"]
-transform = Transform3D(-0.999999, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -0.999999, -2.75741, 4.76837e-07, -2.8)
-operation = 2
-size = Vector3(8.8, 1.6, 2.4)
 
 [node name="HUD" type="Control" parent="."]
 layout_mode = 3
@@ -210,7 +93,7 @@ offset_top = 70.0
 offset_right = 257.0
 offset_bottom = 142.0
 theme_override_font_sizes/font_size = 50
-text = "Time = 5"
+text = "Time = 60"
 script = ExtResource("6_y3lyr")
 
 [node name="Timer" type="Timer" parent="HUD/time label"]
@@ -221,7 +104,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
 script = ExtResource("7_0vkbb")
 
 [node name="Timer" type="Timer" parent="Coin"]
-wait_time = 5.0
+wait_time = 60.0
 one_shot = true
 autostart = true
 
@@ -229,20 +112,45 @@ autostart = true
 transform = Transform3D(1, -3.55271e-15, -7.10543e-15, 0, 1, 0, 7.10543e-15, 0, 1, -7.95, 20.5, -4.76837e-07)
 script = ExtResource("4_x1hif")
 
-[node name="Camera" type="Camera3D" parent="jennifer"]
-transform = Transform3D(-1, 4.37114e-08, -7.57104e-08, 0, 0.866025, 0.5, 8.74228e-08, 0.5, -0.866025, 0, 1.6, -2.2)
-
 [node name="Wall-narrow-gate" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.19422e-07, 9.01222e-07, -4.08, 4.37114e-08, 4.32, 8.51155e-07, 1, -1.88833e-07, 4.87241e-07, -5.40833, 0.333164, -15.942)
 mesh = ExtResource("9_b0o4y")
-skeleton = NodePath("../jennifer/Camera")
+skeleton = NodePath("")
 
 [node name="Metal-gate2" type="MeshInstance3D" parent="."]
-transform = Transform3D(2.21177e-08, -1.16825e-06, 3.7, -3.02133e-08, 5.6, 7.71881e-07, 0.6912, 2.44784e-07, -1.18396e-07, -5.50833, 0.599833, -15.542)
+transform = Transform3D(2.21177e-08, -1.16825e-06, 3.7, -3.02133e-08, 5.6, 7.71881e-07, 0.6912, 2.44784e-07, -1.18396e-07, -5.37664, 0.9434, -15.542)
 mesh = ExtResource("10_oqr3a")
-skeleton = NodePath("../jennifer/Camera")
+skeleton = NodePath("")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Metal-gate2"]
+transform = Transform3D(-0.0162561, -3.69482e-13, 1.98952e-13, -1.04083e-16, 0.999999, -8.61893e-14, 0, 8.31481e-14, 1, -0.418886, 0.45341, 2.38419e-07)
+visible = false
+use_collision = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Metal-gate2"]
+libraries = {
+"": SubResource("AnimationLibrary_jmevt")
+}
+script = ExtResource("11_jb38s")
+
+[node name="FLOOR2" type="CSGBox3D" parent="."]
+transform = Transform3D(1.06621, 0, 0, 0, 1.06621, 0, 0, 0, 1.06621, 0, 4.4493, 0)
+use_collision = true
+size = Vector3(32, 1, 32)
+material = ExtResource("1_7gaq6")
+
+[node name="FLOOR2" type="CSGBox3D" parent="FLOOR2"]
+transform = Transform3D(0.907627, 0, 0, 0, 2.47686, 0, 0, 0, 0.907627, 0, 0.573698, 0)
+operation = 2
+use_collision = true
+size = Vector3(32, 1, 32)
+material = ExtResource("1_7gaq6")
+
+[node name="Node3D" parent="." instance=ExtResource("13_vawmv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.560623, 0)
 
 [connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
 [connection signal="coinCollected" from="Coin" to="HUD/coin label" method="_on_coin_coin_collected"]
+[connection signal="coinCollected" from="Coin" to="Metal-gate2/AnimationPlayer" method="_on_coin_coin_collected"]
 [connection signal="timeout" from="Coin/Timer" to="Coin" method="_on_timer_timeout"]
