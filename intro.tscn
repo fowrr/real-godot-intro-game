@@ -43,8 +43,8 @@ size = Vector3(32, 1, 32)
 material = ExtResource("1_7gaq6")
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="FLOOR"]
-transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 0.6, 0, -1, -2.62268e-08, -15.75, 2.1, 1.93715e-07)
-size = Vector3(0.5, 32, 6)
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 0.6, 0, -1, -2.62268e-08, -17.2501, 2.1, 1.93715e-07)
+size = Vector3(3.09137, 32, 6)
 material = ExtResource("2_gpgow")
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="FLOOR"]
@@ -147,7 +147,7 @@ size = Vector3(32, 1, 32)
 material = ExtResource("1_7gaq6")
 
 [node name="Node3D" parent="." instance=ExtResource("13_vawmv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.560623, 0)
+transform = Transform3D(1, 0, 0, 0, 2.57393, 0, 0, 0, 1, 0, -0.812855, 0)
 
 [connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]

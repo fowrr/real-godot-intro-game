@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://br0poxa4unw1s"]
+
+[ext_resource type="ArrayMesh" uid="uid://bv60r8d0unlc" path="res://Funky Esboo/goomba/Goomba.obj" id="1_vsnxj"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Goomba" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.67653, 0, -2.13473)
+mesh = ExtResource("1_vsnxj")

@@ -21,13 +21,11 @@ shape = SubResource("BoxShape3D_rreyg")
 
 [node name="axis" type="CSGCylinder3D" parent="."]
 transform = Transform3D(0.544344, 0, 0, 0, 0.265871, 0, 0, 0, 0.544344, 0, 0, 0)
+visible = false
 
-[node name="Camera" type="Camera3D" parent="axis"]
-transform = Transform3D(-1.83707, 8.03011e-08, -1.39086e-07, 0, 3.25731, 1.88061, 1.60602e-07, 0.918538, -1.59095, 0, 6.01795, -4.04156)
+[node name="SpringArm3D" type="SpringArm3D" parent="axis"]
+transform = Transform3D(-1.53089, 6.69178e-08, -1.15905e-07, -9.66673e-09, 2.65205, 1.65885, 1.33486e-07, 0.959509, -1.20913, 0, 0.0466499, 0.148364)
+spring_length = 3.5
 
-[node name="camCollision" type="RayCast3D" parent="axis"]
-transform = Transform3D(1.83707, -9.70285e-15, 7.34969e-23, -5.81315e-15, -5.67146, -1.44852, -9.19407e-15, 3.5859, -2.29097, 0, 0, -2.96558e-07)
-collide_with_areas = true
-
-[node name="camHead" type="CSGBox3D" parent="axis"]
-transform = Transform3D(0.300032, 0, 0, 0, 0.614285, 0, 0, 0, 0.300032, 0, 5.76371, -4.00331)
+[node name="Camera" type="Camera3D" parent="axis/SpringArm3D"]
+transform = Transform3D(1, -1.13103e-08, -6.26636e-09, 2.55674e-09, 0.94863, -0.0634289, 1.73983e-09, 0.11973, 1.04615, 0, 0.0413237, 3.53361)

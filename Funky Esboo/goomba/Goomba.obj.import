@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bv60r8d0unlc"
+path="res://.godot/imported/Goomba.obj-8985cb144c0f312861a09cd42c6c8854.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Goomba.obj-8985cb144c0f312861a09cd42c6c8854.mesh"]
+
+source_file="res://Funky Esboo/goomba/Goomba.obj"
+dest_files=["res://.godot/imported/Goomba.obj-8985cb144c0f312861a09cd42c6c8854.mesh", "res://.godot/imported/Goomba.obj-8985cb144c0f312861a09cd42c6c8854.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

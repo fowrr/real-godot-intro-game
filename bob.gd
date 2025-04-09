@@ -12,11 +12,11 @@ var camera_anglev=0
 @onready var camCollision = $axis/camCollision
 @onready var camera = $axis/Camera
 
-func _process(delta):
-	if camCollision.is_colliding():
-		camera.global_transform.origin = camCollision.get_collision_point()	
-	else:
-		camera.global_transform.origin = $axis/camHead.global_transform_origin
+#func _process(delta):
+	#if camCollision.is_colliding():
+	#	camera.global_transform.origin = camCollision.get_collision_point()	
+	#else:
+	#	camera.global_transform.origin = $axis/camHead.global_transform_origin
 		
 		
 func _input(event):  		
