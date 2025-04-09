@@ -49,6 +49,6 @@ func _physics_process(delta):
 		if Input.is_action_pressed("ui_down"):
 			$CSGSphere3D.rotate_x(deg_to_rad(-2))
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		velocity.z = move_toward(velocity.z, 0, SPEED)
+		velocity.x = move_toward(velocity.x, 0, .33)
+		velocity.z = move_toward(velocity.z, 0, .33)
 	move_and_slide()

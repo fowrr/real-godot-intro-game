@@ -1,33 +1,34 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744207887
+::res://::1744216407
 AnimationPlayer.gd::GDScript::-1::1744205767::0::1::::<>AnimationPlayer<>::
 bob.gd::GDScript::-1::1744205829::0::1::::<>CharacterBody3D<>::
-bob.tscn::PackedScene::6551140148221256345::1744207887::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj
+bob.tscn::PackedScene::6551140148221256345::1744209023::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj
 coin label.gd::GDScript::-1::1744205788::0::1::::<>Label<>::
-coin.tscn::PackedScene::4305831346824825165::1744207887::0::1::::<><>::
+coin.tscn::PackedScene::4305831346824825165::1744209023::0::1::::<><>::
+goomba goombaaa.tscn::PackedScene::3632177434779256102::1744209023::0::1::::<><>::uid://bv60r8d0unlc::::res://Funky Esboo/goomba/Goomba.obj
 grass_new_from.mariothing.tres::StandardMaterial3D::5322287319906593379::1744205788::0::1::::<><>::uid://yixqndp5n5aq::::res://textures/grass_texture.tres
 icon.svg::CompressedTexture2D::5371626135603481118::1741615493::1741615502::1::::<><>::
-intro.tscn::PackedScene::1822030363186828052::1744207887::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://AnimationPlayer.gd<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn
-menu.tscn::PackedScene::2400573243275742641::1744207887::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
-miniature_climb_mountain.tscn::PackedScene::7773008176002933167::1744205767::0::1::::<><>::uid://cfw2a0my70j1g::::res://Funky Esboo/mt beanpole/MiniatureClimbMountain.dae
+intro.tscn::PackedScene::1822030363186828052::1744209023::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://AnimationPlayer.gd<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn
+menu.tscn::PackedScene::2400573243275742641::1744209023::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
+miniature_climb_mountain.tscn::PackedScene::7773008176002933167::1744205767::0::1::::<><>::uid://cfw2a0my70j1g
 newcoin.gd::GDScript::-1::1743607734::0::1::::<>Area3D<>::
 quit botten.gd::GDScript::-1::1743701703::0::1::::<>Button<>::
-Real jenny.tscn::PackedScene::7589582016165087087::1743702214::0::1::::<><>::res://CharacterBody3D.gd<>uid://v26npvndik57::::res://Funky Esboo/tinker.obj
+Real jenny.tscn::PackedScene::7589582016165087087::1743702214::0::1::::<><>::res://CharacterBody3D.gd<>uid://v26npvndik57
 start botten.gd::GDScript::-1::1743701472::0::1::::<>Button<>::
 time label.gd::GDScript::-1::1744205767::0::1::::<>Label<>::
 tinker.obj::Mesh::4778442374596398799::1742924720::1742924752::1::::<><>::
 ::res://Funky Esboo/::1744208655
-metal-gate.obj::Mesh::7735849381424586344::1744049731::1744205784::1::::<><>::uid://c41irwtaoi22r::::res://Funky Esboo/Textures/colormap.png
+metal-gate.obj::Mesh::7735849381424586344::1744049731::1744205784::1::::<><>::uid://c41irwtaoi22r
 new_standard_material_3d.tres::StandardMaterial3D::8454197690261734640::1744205788::0::1::::<><>::uid://cutk8ktlqxvbf::::res://Funky Esboo/mt beanpole/CS_SoilLayer15_alb.png
 tinker.obj::Mesh::1531610178740959508::1743431452::1743431474::1::::<><>::
-wall-narrow-gate.obj::Mesh::1736314210951276993::1744049735::1744205784::1::::<><>::uid://c41irwtaoi22r::::res://Funky Esboo/Textures/colormap.png
-::res://Funky Esboo/goomba/::1744208662
+wall-narrow-gate.obj::Mesh::1736314210951276993::1744049735::1744205784::1::::<><>::uid://c41irwtaoi22r
+::res://Funky Esboo/goomba/::1744208665
 enemy_xx01_Kuribo_dif.0.png::CompressedTexture2D::6159725164166493534::1744208662::1744208665::1::::<><>::
 enemy_xx01_Kuribo_dif.1.png::CompressedTexture2D::6425392377370951242::1744208662::1744208665::1::::<><>::
 enemy_xx01_Kuribo_dif.2.png::CompressedTexture2D::5622156201026764817::1744208662::1744208665::1::::<><>::
 enemy_xx01_Kuribo_dif.3.png::CompressedTexture2D::2265783682178237254::1744208662::1744208665::1::::<><>::
 enemy_xx01_Kuribo_dif_0.png::CompressedTexture2D::2979534769769912339::1744208662::1744208665::1::::<><>::
-Goomba.obj::Mesh::115468592142684796::1744208662::1744208665::1::::<><>::uid://bipkrcycsrhh8::::res://Funky Esboo/goomba/enemy_xx01_Kuribo_dif_0.png
+Goomba.obj::Mesh::115468592142684796::1744208662::1744208665::1::::<><>::uid://bipkrcycsrhh8
 ::res://Funky Esboo/mt beanpole/::1744205767
 CS_BlockBrick_alb.png::CompressedTexture2D::7834425397251387362::1744205767::1744205767::1::::<><>::
 CS_BlockBrick_nrm.png::CompressedTexture2D::8051789052029333229::1744205767::1744205767::1::::<><>::
@@ -48,11 +49,11 @@ CS_TreeLongC00_alb.png::CompressedTexture2D::7258960398146737277::1744205767::17
 CS_TreeLongC_Leaf_alb.png::CompressedTexture2D::6651350375716302904::1744205767::1744205767::1::::<><>::
 CS_Wood06_alb.png::CompressedTexture2D::3208594097364629150::1744205767::1744205767::1::::<><>::
 MiniatureClimbMountain.dae::PackedScene::5170842587725987046::1744205767::1744205767::1::::<><>::
-::res://Funky Esboo/Textures/::1744207887
+::res://Funky Esboo/Textures/::1744209023
 10 by 10 orthogonal maze.png::CompressedTexture2D::3727042975753660142::1744205767::1744205767::1::::<><>::
 brick best.tres::StandardMaterial3D::920045889615398006::1744205788::0::1::::<><>::uid://b341x3rqwb3ax::::res://textures/mario bricj.jpg
 colormap.png::CompressedTexture2D::6862508933817252723::1744049735::1744052011::1::::<><>::
-maze skeleton1.tscn::PackedScene::3746959061742322754::1744207887::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
+maze skeleton1.tscn::PackedScene::3746959061742322754::1744209023::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
 ::res://textures/::1744205767
 Bricks066_1K-JPG_Color.jpg::CompressedTexture2D::4488140270501872546::1741889123::1741889127::1::::<><>::
 grass texture godot.jpg::CompressedTexture2D::3996243865356750190::1742480063::1742480071::1::::<><>::
