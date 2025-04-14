@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://c0lok6g2yht6x"]
+[gd_scene load_steps=4 format=3 uid="uid://c0lok6g2yht6x"]
 
 [ext_resource type="ArrayMesh" uid="uid://v26npvndik57" path="res://Funky Esboo/tinker.obj" id="1_nhu5u"]
+[ext_resource type="Script" path="res://Camera.gd" id="2_r34pb"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rreyg"]
 
@@ -29,3 +30,4 @@ spring_length = 3.5
 
 [node name="Camera" type="Camera3D" parent="axis/SpringArm3D"]
 transform = Transform3D(1, -1.13103e-08, -6.26636e-09, 2.55674e-09, 0.94863, -0.0634289, 1.73983e-09, 0.11973, 1.04615, 0, 0.0413237, 3.53361)
+script = ExtResource("2_r34pb")

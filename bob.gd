@@ -9,8 +9,6 @@ var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 var mouse_sens = 0.3
 var camera_anglev=0
-@onready var camCollision = $axis/camCollision
-@onready var camera = $axis/Camera
 
 #func _process(delta):
 	#if camCollision.is_colliding():
@@ -18,6 +16,7 @@ var camera_anglev=0
 	#else:
 	#	camera.global_transform.origin = $axis/camHead.global_transform_origin
 		
+
 		
 func _input(event):  		
 	if event is InputEventMouseMotion and Input.is_action_pressed("mouse_right"):
@@ -52,3 +51,12 @@ func _physics_process(delta):
 		velocity.x = move_toward(velocity.x, 0, .33)
 		velocity.z = move_toward(velocity.z, 0, .33)
 	move_and_slide()
+
+
+func _on_coin_coin_collected():
+	$axis/SpringArm3D/Camera.current = false
+	
+
+
+func _on_timer_timeout():
+	$axis/SpringArm3D/Camera.current = true
