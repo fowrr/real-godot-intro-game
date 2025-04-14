@@ -1,15 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://b2l1obwd3u8lt"]
+[gd_scene load_steps=5 format=3 uid="uid://b2l1obwd3u8lt"]
+
+[ext_resource type="ArrayMesh" uid="uid://8jn3dc5nj6t" path="res://key/21929_Key_v1.obj" id="1_4pycd"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v3kwv"]
+size = Vector3(1.8388, 1, 4.71609)
 
-[sub_resource type="CylinderMesh" id="CylinderMesh_74gsd"]
+[sub_resource type="Skin" id="Skin_k7tk4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cfwri"]
+albedo_color = Color(0.670588, 0.666667, 0, 1)
 
 [node name="Area3D" type="Area3D"]
+transform = Transform3D(0.343551, 0, 0, 0, 0.343551, 0, 0, 0, 0.343551, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0292844, -0.0207915, 2.29443)
 shape = SubResource("BoxShape3D_v3kwv")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
-mesh = SubResource("CylinderMesh_74gsd")
+mesh = ExtResource("1_4pycd")
+skin = SubResource("Skin_k7tk4")
 skeleton = NodePath("../CollisionShape3D")
+surface_material_override/0 = SubResource("StandardMaterial3D_cfwri")

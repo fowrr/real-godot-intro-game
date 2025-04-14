@@ -1,9 +1,10 @@
-Timer
 CSGBox3D
+CollisionShape3D
+Label
+Timer
 Camera3D
 Node3D
 XRCamera3D
-CollisionShape3D
 Area3D
 SpringArm3D
 RayCast3D

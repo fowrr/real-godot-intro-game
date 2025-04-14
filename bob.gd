@@ -1,5 +1,5 @@
 extends CharacterBody3D
-
+var lives = 4
 
 const SPEED = 5.0
 const JUMP_VELOCITY = 0.0
@@ -60,3 +60,8 @@ func _on_coin_coin_collected():
 
 func _on_timer_timeout():
 	$axis/SpringArm3D/Camera.current = true
+
+
+func _on_goomba_body_entered(body):
+	lives -= 1
+	print(lives)

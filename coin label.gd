@@ -17,3 +17,6 @@ func _on_coin_coin_collected():
 	text = "Coins = " + str(coinCount)
 	print("Collected")
 	
+
+
+
