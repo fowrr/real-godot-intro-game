@@ -1,150 +1,161 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744670477
-AnimationPlayer.gd::GDScript::-1::1744079975::0::1::::<>AnimationPlayer<>::
-bob.gd::GDScript::-1::1744669211::0::1::::<>CharacterBody3D<>::
-bob.tscn::PackedScene::6551140148221256345::1744519598::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj<>res://Camera.gd
-Camera3D.gd::GDScript::-1::1744519040::0::1::::<>Camera3D<>::
-Camera.gd::GDScript::-1::1744517346::0::1::::<>Camera3D<>::
-coin label.gd::GDScript::-1::1744669211::0::1::::<>Label<>::
-coin.tscn::PackedScene::4305831346824825165::1744669211::0::1::::<><>::uid://8jn3dc5nj6t::::res://key/21929_Key_v1.obj
-cutTime.gd::GDScript::-1::1744519040::0::1::::<>Timer<>::
-goomba goombaaa.gd::GDScript::-1::1744669211::0::1::::<>Area3D<>::
-goomba goombaaa.tscn::PackedScene::3632177434779256102::1744519598::0::1::::<><>::uid://bv60r8d0unlc::::res://Funky Esboo/goomba/Goomba.obj
-grass_new_from.mariothing.tres::StandardMaterial3D::5322287319906593379::1744519598::0::1::::<><>::uid://yixqndp5n5aq::::res://textures/grass_texture.tres
-icon.svg::CompressedTexture2D::5371626135603481118::1744075471::1744075593::1::::<><>::
-intro.tscn::PackedScene::1822030363186828052::1744669211::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>uid://dqejuk3v2nn0v::::res://textures/mheart.webp<>uid://b4lxgn28ftvfo::::res://textures/dead-heart.png<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://Camera3D.gd<>res://AnimationPlayer.gd<>uid://br0poxa4unw1s::::res://goomba goombaaa.tscn<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn<>res://goomba goombaaa.gd<>res://cutTime.gd<>res://Label.gd<>uid://yixqndp5n5aq::::res://textures/grass_texture.tres<>uid://b1jcbunu6iu53::::res://OBJ format/rocks-large.obj
-Key1.obj::Mesh::2018284979453449962::1744670132::1744670499::1::::<><>::
-Label.gd::GDScript::-1::1744669211::0::1::::<>Label<>::
-menu.tscn::PackedScene::2400573243275742641::1744519598::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
-miniature_climb_mountain.tscn::PackedScene::7773008176002933167::1744081538::0::1::::<><>::uid://cfw2a0my70j1g
-newcoin.gd::GDScript::-1::1744079975::0::1::::<>Area3D<>::
-quit botten.gd::GDScript::-1::1744075471::0::1::::<>Button<>::
-Real jenny.tscn::PackedScene::7589582016165087087::1744075471::0::1::::<><>::res://CharacterBody3D.gd<>uid://v26npvndik57
-start botten.gd::GDScript::-1::1744077645::0::1::::<>Button<>::
-time label.gd::GDScript::-1::1744080077::0::1::::<>Label<>::
-tinker.obj::Mesh::4778442374596398799::1744075471::1744075594::1::::<><>::
-::res://Funky Esboo/::1744669291
-metal-gate.obj::Mesh::7735849381424586344::1744075471::1744669291::1::::<><>::uid://c41irwtaoi22r
-new_standard_material_3d.tres::StandardMaterial3D::8454197690261734640::1744519598::0::1::::<><>::uid://cutk8ktlqxvbf::::res://Funky Esboo/mt beanpole/CS_SoilLayer15_alb.png
-tinker.obj::Mesh::1531610178740959508::1744075471::1744075594::1::::<><>::
-wall-narrow-gate.obj::Mesh::1736314210951276993::1744075471::1744669291::1::::<><>::uid://c41irwtaoi22r
-::res://Funky Esboo/goomba/::1744669291
-enemy_xx01_Kuribo_dif.0.png::CompressedTexture2D::6159725164166493534::1744515478::1744515478::1::::<><>::
-enemy_xx01_Kuribo_dif.1.png::CompressedTexture2D::6425392377370951242::1744515478::1744515478::1::::<><>::
-enemy_xx01_Kuribo_dif.2.png::CompressedTexture2D::5622156201026764817::1744515478::1744515478::1::::<><>::
-enemy_xx01_Kuribo_dif.3.png::CompressedTexture2D::2265783682178237254::1744515478::1744515478::1::::<><>::
-enemy_xx01_Kuribo_dif_0.png::CompressedTexture2D::2979534769769912339::1744515478::1744515478::1::::<><>::
-Goomba.obj::Mesh::115468592142684796::1744515478::1744669291::1::::<><>::uid://bipkrcycsrhh8
-::res://Funky Esboo/mt beanpole/::1744081399
-CS_BlockBrick_alb.png::CompressedTexture2D::7834425397251387362::1744081391::1744081399::1::::<><>::
-CS_BlockBrick_nrm.png::CompressedTexture2D::8051789052029333229::1744081391::1744081398::1::::<><>::
-CS_BlockPow.png::CompressedTexture2D::4595467175159124207::1744081391::1744081399::1::::<><>::
-CS_Cloud01_alb.png::CompressedTexture2D::5821326201157954696::1744081391::1744081399::1::::<><>::
-CS_Coin00_alb.png::CompressedTexture2D::1679498067203139254::1744081391::1744081399::1::::<><>::
-CS_Coin00_nrm.png::CompressedTexture2D::4203840748267307691::1744081391::1744081398::1::::<><>::
-CS_FlowerC01_alb.png::CompressedTexture2D::8163579179228855198::1744081391::1744081399::1::::<><>::
-CS_FlowerHibiscusLeaf00_Alb.png::CompressedTexture2D::818468500586905170::1744081391::1744081399::1::::<><>::
-CS_Lawn00_spc.png::CompressedTexture2D::2890267372693804506::1744081392::1744081397::1::::<><>::
-CS_Lawn01_alb.png::CompressedTexture2D::8192581109876670670::1744081392::1744081399::1::::<><>::
-CS_Lawn04_spc.png::CompressedTexture2D::816767595931441023::1744081392::1744081397::1::::<><>::
-CS_LawnEdge00_alb.png::CompressedTexture2D::1317136649929596889::1744081392::1744081399::1::::<><>::
-CS_SoilLayer15_alb.png::CompressedTexture2D::6216508073707396435::1744081392::1744081399::1::::<><>::
-CS_SoilLayer15_nrm.png::CompressedTexture2D::6856772230446014920::1744081392::1744081397::1::::<><>::
-CS_SoilLayer15_spc.png::CompressedTexture2D::7513352631668455164::1744081392::1744081397::1::::<><>::
-CS_TreeLongC00_alb.png::CompressedTexture2D::7258960398146737277::1744081392::1744081399::1::::<><>::
-CS_TreeLongC_Leaf_alb.png::CompressedTexture2D::6651350375716302904::1744081392::1744081399::1::::<><>::
-CS_Wood06_alb.png::CompressedTexture2D::3208594097364629150::1744081392::1744081399::1::::<><>::
-MiniatureClimbMountain.dae::PackedScene::5170842587725987046::1744081392::1744081399::1::::<><>::
-::res://Funky Esboo/Textures/::1744519598
-10 by 10 orthogonal maze.png::CompressedTexture2D::3727042975753660142::1744149783::1744149789::1::::<><>::
-brick best.tres::StandardMaterial3D::920045889615398006::1744519598::0::1::::<><>::uid://b341x3rqwb3ax::::res://textures/mario bricj.jpg
-colormap.png::CompressedTexture2D::6862508933817252723::1744075471::1744075592::1::::<><>::
-maze skeleton1.tscn::PackedScene::3746959061742322754::1744519598::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
-::res://OBJ format/::1744669293
-bridge-draw.obj::Mesh::8838624489790547569::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-bridge-straight-pillar.obj::Mesh::9167797803448279928::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-bridge-straight.obj::Mesh::5011781230979155071::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-door.obj::Mesh::3372504651182310114::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-flag-banner-long.obj::Mesh::8835903194788117364::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-flag-banner-short.obj::Mesh::7910935423712507077::1744669211::1744669289::1::::<><>::uid://xlb7nl553w3y
-flag-pennant.obj::Mesh::2716894955004715831::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-flag-wide.obj::Mesh::3207480002431396517::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-flag.obj::Mesh::1322824571331784374::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-gate.obj::Mesh::7039735108694922483::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-ground-hills.obj::Mesh::8960616847021787334::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-ground.obj::Mesh::7651960625737508910::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-metal-gate.obj::Mesh::4199999385696680472::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-rocks-large.obj::Mesh::4230034309347852632::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-rocks-small.obj::Mesh::2918927849465994650::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-siege-ballista-demolished.obj::Mesh::2456684183660959101::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-siege-ballista.obj::Mesh::3183962137963974908::1744669211::1744669288::1::::<><>::uid://xlb7nl553w3y
-siege-catapult-demolished.obj::Mesh::7707728401154487983::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-catapult.obj::Mesh::8860860259479609976::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-ram-demolished.obj::Mesh::2856081405010464018::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-ram.obj::Mesh::6835652614279367057::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-tower-demolished.obj::Mesh::6987918596409436441::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-tower.obj::Mesh::6372044827705419452::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-siege-trebuchet-demolished.obj::Mesh::2693833888750595426::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-siege-trebuchet.obj::Mesh::7656446184929275874::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-stairs-stone-square.obj::Mesh::20723196209831142::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-stairs-stone.obj::Mesh::4589881008967242584::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-base.obj::Mesh::1417674148837399146::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-base.obj::Mesh::2014829935843911856::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-mid.obj::Mesh::5746923228562251224::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-roof-secondary.obj::Mesh::4082884229183269874::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-roof.obj::Mesh::3998912610083506048::1744669211::1744669293::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-top-wood.obj::Mesh::5836069506786860946::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-hexagon-top.obj::Mesh::6591299608816243909::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-slant-roof.obj::Mesh::5495955995000939240::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-arch.obj::Mesh::700176628945655107::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-base-border.obj::Mesh::1345751529421699942::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-base-color.obj::Mesh::248188584765256435::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-base.obj::Mesh::6682911066322670234::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid-color.obj::Mesh::887203312000221917::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid-door.obj::Mesh::3908086297995403119::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid-open-simple.obj::Mesh::5214265323820954235::1744669211::1744669292::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid-open.obj::Mesh::4041273509475751870::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid-windows.obj::Mesh::6937047245341348902::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-mid.obj::Mesh::1064695374089568507::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-roof.obj::Mesh::6256301528267818571::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-top-color.obj::Mesh::5278527794761887351::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-top-roof-high-windows.obj::Mesh::2787769785864606747::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-top-roof-high.obj::Mesh::5796087549378367842::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-top-roof-rounded.obj::Mesh::4112897059114362770::1744669211::1744669291::1::::<><>::uid://xlb7nl553w3y
-tower-square-top-roof.obj::Mesh::3361226262663189022::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-tower-square-top.obj::Mesh::2140390144976710313::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-tower-square.obj::Mesh::676660117343716677::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-tower-top.obj::Mesh::4497329306737709722::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-tree-large.obj::Mesh::2981405819014890951::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-tree-log.obj::Mesh::6915857467301740462::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-tree-small.obj::Mesh::8260190836621120280::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-tree-trunk.obj::Mesh::2125199039822669877::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-corner-half-tower.obj::Mesh::2444312183255357710::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-corner-half.obj::Mesh::478733081010532772::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-corner-slant.obj::Mesh::8744295250857190276::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-wall-corner.obj::Mesh::1896179366111639915::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-doorway.obj::Mesh::5790927353900821939::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-half-modular.obj::Mesh::2638651238481394775::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-half.obj::Mesh::781592684776706015::1744669211::1744669284::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-corner.obj::Mesh::8743244096787288368::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-gate.obj::Mesh::7272532072338912029::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-stairs-rail.obj::Mesh::2500024439144647047::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-stairs.obj::Mesh::1406214488351143903::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-wood-fence.obj::Mesh::1534248014182208994::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall-narrow-wood.obj::Mesh::2187899924052150526::1744669211::1744669284::1::::<><>::uid://xlb7nl553w3y
-wall-narrow.obj::Mesh::4047581172025185359::1744669211::1744669287::1::::<><>::uid://xlb7nl553w3y
-wall-pillar.obj::Mesh::380767670174141749::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-stud.obj::Mesh::6744065979817937735::1744669211::1744669286::1::::<><>::uid://xlb7nl553w3y
-wall-to-narrow.obj::Mesh::12975724923149802::1744669211::1744669285::1::::<><>::uid://xlb7nl553w3y
-wall.obj::Mesh::2019663985161301829::1744669211::1744669284::1::::<><>::uid://xlb7nl553w3y
-::res://OBJ format/Textures/::1744669211
-colormap.png::CompressedTexture2D::1637170122567805672::1744669211::1744669211::1::::<><>::
-::res://textures/::1744669211
-Bricks066_1K-JPG_Color.jpg::CompressedTexture2D::4488140270501872546::1744075471::1744075593::1::::<><>::
-dead-heart.png::CompressedTexture2D::4446013236107848788::1744669211::1744669211::1::::<><>::
-grass texture godot.jpg::CompressedTexture2D::3996243865356750190::1744075471::1744075471::1::::<><>::
-grass_texture.tres::CompressedTexture2D::1702473021041494640::1744082945::0::1::::<><>::
-mario bricj.jpg::CompressedTexture2D::4413196473169398959::1744080518::1744080684::1::::<><>::
-mario grass-ground texture.jpg::CompressedTexture2D::7979226599938747370::1744075471::1744075592::1::::<><>::
-mheart.webp::CompressedTexture2D::8291123798595833427::1744669211::1744669211::1::::<><>::
-Tiles093_1K-JPG_Color.jpg::CompressedTexture2D::8854920866230537277::1744075471::1744075593::1::::<><>::
+::res://::1744737594
+AnimationPlayer.gd::GDScript::-1::1744205767::0::1::::<>AnimationPlayer<>::
+bob.gd::GDScript::-1::1744734914::0::1::::<>CharacterBody3D<>::
+bob.tscn::PackedScene::6551140148221256345::1744737593::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj<>res://Camera.gd
+Button.gd::GDScript::-1::1744734914::0::1::::<>Button<>::
+Camera3D.gd::GDScript::-1::1744641643::0::1::::<>Camera3D<>::
+Camera.gd::GDScript::-1::1744641643::0::1::::<>Camera3D<>::
+coin label.gd::GDScript::-1::1744737110::0::1::::<>Label<>::
+coin.tscn::PackedScene::4305831346824825165::1744737593::0::1::::<><>::uid://30w4gx1py3nq::::res://Key1.obj
+cutTime.gd::GDScript::-1::1744641643::0::1::::<>Timer<>::
+endscreen.tscn::PackedScene::-1::1744734914::0::1::::<><>::
+goomba goombaaa.gd::GDScript::-1::1744736988::0::1::::<>Area3D<>::
+goomba goombaaa.tscn::PackedScene::3632177434779256102::1744737593::0::1::::<><>::uid://bv60r8d0unlc::::res://Funky Esboo/goomba/Goomba.obj
+grass_new_from.mariothing.tres::StandardMaterial3D::5322287319906593379::1744737110::0::1::::<><>::uid://yixqndp5n5aq::::res://textures/grass_texture.tres
+hearts.gd::GDScript::-1::1744737111::0::1::::<>TextureRect<>::
+icon.svg::CompressedTexture2D::5371626135603481118::1741615493::1741615502::1::::<><>::
+intro.tscn::PackedScene::1822030363186828052::1744737593::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>uid://dqejuk3v2nn0v::::res://textures/mheart.webp<>uid://b4lxgn28ftvfo::::res://textures/dead-heart.png<>res://hearts.gd<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://Camera3D.gd<>res://AnimationPlayer.gd<>uid://br0poxa4unw1s::::res://goomba goombaaa.tscn<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn<>res://goomba goombaaa.gd<>res://cutTime.gd<>res://Label.gd<>uid://yixqndp5n5aq::::res://textures/grass_texture.tres<>uid://b1jcbunu6iu53::::res://OBJ format/rocks-large.obj<>uid://dpfqh3mpu5e5d::::res://mushroom.tscn
+Key1.obj::Mesh::2018284979453449962::1744734914::1744734914::1::::<><>::
+Label.gd::GDScript::-1::1744643279::0::1::::<>Label<>::
+menu.tscn::PackedScene::2400573243275742641::1744737593::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
+miniature_climb_mountain.tscn::PackedScene::7773008176002933167::1744205767::0::1::::<><>::uid://cfw2a0my70j1g
+mushroom.tscn::PackedScene::8223402056762585375::1744737594::0::1::::<><>::uid://b1gepme7fvy6u::::res://Mega Mushroom/KinokoBig.obj<>uid://nd05uc26bigs::::res://Mega Mushroom/KinokoBig_alb.png<>uid://cjiaydpcs5nvb::::res://Mega Mushroom/KinokoBig_nrm.png
+newcoin.gd::GDScript::-1::1744734914::0::1::::<>Area3D<>::
+quit botten.gd::GDScript::-1::1743701703::0::1::::<>Button<>::
+quit.gd::GDScript::-1::1744734914::0::1::::<>Button<>::
+Real jenny.tscn::PackedScene::7589582016165087087::1743702214::0::1::::<><>::res://CharacterBody3D.gd<>uid://v26npvndik57
+start botten.gd::GDScript::-1::1743701472::0::1::::<>Button<>::
+time label.gd::GDScript::-1::1744205767::0::1::::<>Label<>::
+tinker.obj::Mesh::4778442374596398799::1742924720::1742924752::1::::<><>::
+::res://Funky Esboo/::1744737110
+metal-gate.obj::Mesh::7735849381424586344::1744049731::1744641680::1::::<><>::uid://c41irwtaoi22r
+new_standard_material_3d.tres::StandardMaterial3D::8454197690261734640::1744737110::0::1::::<><>::uid://cutk8ktlqxvbf::::res://Funky Esboo/mt beanpole/CS_SoilLayer15_alb.png
+tinker.obj::Mesh::1531610178740959508::1743431452::1743431474::1::::<><>::
+wall-narrow-gate.obj::Mesh::1736314210951276993::1744049735::1744641680::1::::<><>::uid://c41irwtaoi22r
+::res://Funky Esboo/goomba/::1744641679
+enemy_xx01_Kuribo_dif.0.png::CompressedTexture2D::6159725164166493534::1744208662::1744208665::1::::<><>::
+enemy_xx01_Kuribo_dif.1.png::CompressedTexture2D::6425392377370951242::1744208662::1744208665::1::::<><>::
+enemy_xx01_Kuribo_dif.2.png::CompressedTexture2D::5622156201026764817::1744208662::1744208665::1::::<><>::
+enemy_xx01_Kuribo_dif.3.png::CompressedTexture2D::2265783682178237254::1744208662::1744208665::1::::<><>::
+enemy_xx01_Kuribo_dif_0.png::CompressedTexture2D::2979534769769912339::1744208662::1744208665::1::::<><>::
+Goomba.obj::Mesh::115468592142684796::1744208662::1744641679::1::::<><>::uid://bipkrcycsrhh8
+::res://Funky Esboo/mt beanpole/::1744205767
+CS_BlockBrick_alb.png::CompressedTexture2D::7834425397251387362::1744205767::1744205767::1::::<><>::
+CS_BlockBrick_nrm.png::CompressedTexture2D::8051789052029333229::1744205767::1744205767::1::::<><>::
+CS_BlockPow.png::CompressedTexture2D::4595467175159124207::1744205767::1744205767::1::::<><>::
+CS_Cloud01_alb.png::CompressedTexture2D::5821326201157954696::1744205767::1744205767::1::::<><>::
+CS_Coin00_alb.png::CompressedTexture2D::1679498067203139254::1744205767::1744205767::1::::<><>::
+CS_Coin00_nrm.png::CompressedTexture2D::4203840748267307691::1744205767::1744205767::1::::<><>::
+CS_FlowerC01_alb.png::CompressedTexture2D::8163579179228855198::1744205767::1744205767::1::::<><>::
+CS_FlowerHibiscusLeaf00_Alb.png::CompressedTexture2D::818468500586905170::1744205767::1744205767::1::::<><>::
+CS_Lawn00_spc.png::CompressedTexture2D::2890267372693804506::1744205767::1744205767::1::::<><>::
+CS_Lawn01_alb.png::CompressedTexture2D::8192581109876670670::1744205767::1744205767::1::::<><>::
+CS_Lawn04_spc.png::CompressedTexture2D::816767595931441023::1744205767::1744205767::1::::<><>::
+CS_LawnEdge00_alb.png::CompressedTexture2D::1317136649929596889::1744205767::1744205767::1::::<><>::
+CS_SoilLayer15_alb.png::CompressedTexture2D::6216508073707396435::1744205767::1744205767::1::::<><>::
+CS_SoilLayer15_nrm.png::CompressedTexture2D::6856772230446014920::1744205767::1744205767::1::::<><>::
+CS_SoilLayer15_spc.png::CompressedTexture2D::7513352631668455164::1744205767::1744205767::1::::<><>::
+CS_TreeLongC00_alb.png::CompressedTexture2D::7258960398146737277::1744205767::1744205767::1::::<><>::
+CS_TreeLongC_Leaf_alb.png::CompressedTexture2D::6651350375716302904::1744205767::1744205767::1::::<><>::
+CS_Wood06_alb.png::CompressedTexture2D::3208594097364629150::1744205767::1744205767::1::::<><>::
+MiniatureClimbMountain.dae::PackedScene::5170842587725987046::1744205767::1744205767::1::::<><>::
+::res://Funky Esboo/Textures/::1744737593
+10 by 10 orthogonal maze.png::CompressedTexture2D::3727042975753660142::1744205767::1744205767::1::::<><>::
+brick best.tres::StandardMaterial3D::920045889615398006::1744737110::0::1::::<><>::uid://b341x3rqwb3ax::::res://textures/mario bricj.jpg
+colormap.png::CompressedTexture2D::6862508933817252723::1744049735::1744052011::1::::<><>::
+maze skeleton1.tscn::PackedScene::3746959061742322754::1744737593::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
+::res://Mega Mushroom/::1744736144
+KinokoBig.dae::::-1::0::0::0::::<><>::
+KinokoBig.obj::Mesh::4223987177606829834::1744735988::1744736004::1::::<><>::uid://cjiaydpcs5nvb
+KinokoBig_alb.png::CompressedTexture2D::920220654017752150::1744735605::1744736013::1::::<><>::
+KinokoBig_nrm.png::CompressedTexture2D::5421099022072925711::1744735605::1744736139::1::::<><>::
+KinokoBig_spc.png::CompressedTexture2D::931613486029358387::1744735605::1744736144::1::::<><>::
+::res://OBJ format/::1744643697
+bridge-draw.obj::Mesh::8838624489790547569::1744049730::1744643696::1::::<><>::uid://xlb7nl553w3y
+bridge-straight-pillar.obj::Mesh::9167797803448279928::1744049730::1744643696::1::::<><>::uid://xlb7nl553w3y
+bridge-straight.obj::Mesh::5011781230979155071::1744049730::1744643696::1::::<><>::uid://xlb7nl553w3y
+door.obj::Mesh::3372504651182310114::1744049730::1744643696::1::::<><>::uid://xlb7nl553w3y
+flag-banner-long.obj::Mesh::8835903194788117364::1744049730::1744643695::1::::<><>::uid://xlb7nl553w3y
+flag-banner-short.obj::Mesh::7910935423712507077::1744049730::1744643695::1::::<><>::uid://xlb7nl553w3y
+flag-pennant.obj::Mesh::2716894955004715831::1744049730::1744643695::1::::<><>::uid://xlb7nl553w3y
+flag-wide.obj::Mesh::3207480002431396517::1744049730::1744643695::1::::<><>::uid://xlb7nl553w3y
+flag.obj::Mesh::1322824571331784374::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+gate.obj::Mesh::7039735108694922483::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+ground-hills.obj::Mesh::8960616847021787334::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+ground.obj::Mesh::7651960625737508910::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+metal-gate.obj::Mesh::4199999385696680472::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+rocks-large.obj::Mesh::4230034309347852632::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+rocks-small.obj::Mesh::2918927849465994650::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+siege-ballista-demolished.obj::Mesh::2456684183660959101::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+siege-ballista.obj::Mesh::3183962137963974908::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+siege-catapult-demolished.obj::Mesh::7707728401154487983::1744049731::1744643695::1::::<><>::uid://xlb7nl553w3y
+siege-catapult.obj::Mesh::8860860259479609976::1744049731::1744643694::1::::<><>::uid://xlb7nl553w3y
+siege-ram-demolished.obj::Mesh::2856081405010464018::1744049731::1744643697::1::::<><>::uid://xlb7nl553w3y
+siege-ram.obj::Mesh::6835652614279367057::1744049731::1744643697::1::::<><>::uid://xlb7nl553w3y
+siege-tower-demolished.obj::Mesh::6987918596409436441::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+siege-tower.obj::Mesh::6372044827705419452::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+siege-trebuchet-demolished.obj::Mesh::2693833888750595426::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+siege-trebuchet.obj::Mesh::7656446184929275874::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+stairs-stone-square.obj::Mesh::20723196209831142::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+stairs-stone.obj::Mesh::4589881008967242584::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+tower-base.obj::Mesh::1417674148837399146::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-base.obj::Mesh::2014829935843911856::1744049732::1744643697::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-mid.obj::Mesh::5746923228562251224::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-roof-secondary.obj::Mesh::4082884229183269874::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-roof.obj::Mesh::3998912610083506048::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-top-wood.obj::Mesh::5836069506786860946::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-hexagon-top.obj::Mesh::6591299608816243909::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-slant-roof.obj::Mesh::5495955995000939240::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-square-arch.obj::Mesh::700176628945655107::1744049732::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-square-base-border.obj::Mesh::1345751529421699942::1744049733::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-square-base-color.obj::Mesh::248188584765256435::1744049733::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-square-base.obj::Mesh::6682911066322670234::1744049733::1744643696::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid-color.obj::Mesh::887203312000221917::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid-door.obj::Mesh::3908086297995403119::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid-open-simple.obj::Mesh::5214265323820954235::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid-open.obj::Mesh::4041273509475751870::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid-windows.obj::Mesh::6937047245341348902::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-mid.obj::Mesh::1064695374089568507::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-roof.obj::Mesh::6256301528267818571::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-top-color.obj::Mesh::5278527794761887351::1744049733::1744643693::1::::<><>::uid://xlb7nl553w3y
+tower-square-top-roof-high-windows.obj::Mesh::2787769785864606747::1744049733::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-square-top-roof-high.obj::Mesh::5796087549378367842::1744049733::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-square-top-roof-rounded.obj::Mesh::4112897059114362770::1744049733::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-square-top-roof.obj::Mesh::3361226262663189022::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-square-top.obj::Mesh::2140390144976710313::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-square.obj::Mesh::676660117343716677::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tower-top.obj::Mesh::4497329306737709722::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tree-large.obj::Mesh::2981405819014890951::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tree-log.obj::Mesh::6915857467301740462::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tree-small.obj::Mesh::8260190836621120280::1744049734::1744643692::1::::<><>::uid://xlb7nl553w3y
+tree-trunk.obj::Mesh::2125199039822669877::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-corner-half-tower.obj::Mesh::2444312183255357710::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-corner-half.obj::Mesh::478733081010532772::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-corner-slant.obj::Mesh::8744295250857190276::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-corner.obj::Mesh::1896179366111639915::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-doorway.obj::Mesh::5790927353900821939::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-half-modular.obj::Mesh::2638651238481394775::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-half.obj::Mesh::781592684776706015::1744049734::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-corner.obj::Mesh::8743244096787288368::1744049735::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-gate.obj::Mesh::7272532072338912029::1744049735::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-stairs-rail.obj::Mesh::2500024439144647047::1744049735::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-stairs.obj::Mesh::1406214488351143903::1744049735::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-wood-fence.obj::Mesh::1534248014182208994::1744049735::1744643694::1::::<><>::uid://xlb7nl553w3y
+wall-narrow-wood.obj::Mesh::2187899924052150526::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+wall-narrow.obj::Mesh::4047581172025185359::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+wall-pillar.obj::Mesh::380767670174141749::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+wall-stud.obj::Mesh::6744065979817937735::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+wall-to-narrow.obj::Mesh::12975724923149802::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+wall.obj::Mesh::2019663985161301829::1744049735::1744643693::1::::<><>::uid://xlb7nl553w3y
+::res://OBJ format/Textures/::1744643698
+colormap.png::CompressedTexture2D::1637170122567805672::1744049735::1744643698::1::::<><>::
+::res://textures/::1744649932
+Bricks066_1K-JPG_Color.jpg::CompressedTexture2D::4488140270501872546::1741889123::1741889127::1::::<><>::
+dead-heart.png::CompressedTexture2D::4446013236107848788::1744649891::1744649932::1::::<><>::
+grass texture godot.jpg::CompressedTexture2D::3996243865356750190::1742480063::1742480071::1::::<><>::
+grass_texture.tres::CompressedTexture2D::1702473021041494640::1744205767::0::1::::<><>::
+mario bricj.jpg::CompressedTexture2D::4413196473169398959::1744205767::1744205767::1::::<><>::
+mario grass-ground texture.jpg::CompressedTexture2D::7979226599938747370::1742479161::1742479224::1::::<><>::
+mheart.webp::CompressedTexture2D::8291123798595833427::1744649253::1744649517::1::::<><>::
+Tiles093_1K-JPG_Color.jpg::CompressedTexture2D::8854920866230537277::1741887223::1741887230::1::::<><>::

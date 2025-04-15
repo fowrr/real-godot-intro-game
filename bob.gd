@@ -1,9 +1,12 @@
 extends CharacterBody3D
 
-
+var mushroom = 0
 const SPEED = 5.0
 const JUMP_VELOCITY = 0.0
-
+func _ready():
+	scale.x = 1
+	scale.y = 1
+	scale.z = 1
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
@@ -62,3 +65,13 @@ func _on_timer_timeout():
 	$axis/SpringArm3D/Camera.current = true
 
 
+
+
+
+
+
+func _on_mushroom_body_entered(body):
+	print(mushroom)
+	mushroom += 1
+	if mushroom > 2:
+		

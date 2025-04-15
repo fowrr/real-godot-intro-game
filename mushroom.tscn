@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://dpfqh3mpu5e5d"]
+
+[ext_resource type="ArrayMesh" uid="uid://b1gepme7fvy6u" path="res://Mega Mushroom/KinokoBig.obj" id="1_qhkaj"]
+[ext_resource type="Texture2D" uid="uid://nd05uc26bigs" path="res://Mega Mushroom/KinokoBig_alb.png" id="2_gv33b"]
+[ext_resource type="Texture2D" uid="uid://cjiaydpcs5nvb" path="res://Mega Mushroom/KinokoBig_nrm.png" id="3_62utq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bhxcw"]
+albedo_texture = ExtResource("2_gv33b")
+normal_enabled = true
+normal_texture = ExtResource("3_62utq")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nl2ft"]
+
+[node name="thomas" type="Area3D"]
+transform = Transform3D(0.0776269, 0, 0, 0, 0.084019, 0, 0, 0, 0.0853179, 0, 0, 0)
+
+[node name="CSGBox3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.225855, 0, 0, 0, 0.225855, 0, 0, 0, 0.225855, 0, -19.8397, 3.91773)
+mesh = ExtResource("1_qhkaj")
+surface_material_override/0 = SubResource("StandardMaterial3D_bhxcw")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(44.255, 0, 0, 0, 44.255, 0, 0, 0, 44.255, 0, 4.25651e-06, -6.98618e-07)
+shape = SubResource("BoxShape3D_nl2ft")

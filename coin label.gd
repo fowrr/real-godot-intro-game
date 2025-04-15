@@ -19,3 +19,7 @@ func _on_coin_coin_collected():
 	
 
 
+
+
+func _on_mushroom_body_entered(body):
+	pass # Replace with function body.
