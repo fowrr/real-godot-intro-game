@@ -1,5 +1,8 @@
-TextureRect
+AnimationPlayer
+Button
 Label
+ColorRect
+TextureRect
 CSGBox3D
 CollisionShape3D
 Timer
@@ -12,5 +15,4 @@ RayCast3D
 Node
 MeshInstance3D
 CSGCombiner3D
-AnimationPlayer
 CSGCylinder3D

@@ -1,10 +1,16 @@
-res://intro.tscn
+res://coin.tscn
 res://coin label.gd
 res://grass_new_from.mariothing.tres
 res://Funky Esboo/new_standard_material_3d.tres
 res://Funky Esboo/Textures/brick best.tres
-res://coin.tscn
+res://intro.tscn
 res://bob.tscn
 res://Funky Esboo/Textures/maze skeleton1.tscn
 res://goomba goombaaa.tscn
 res://menu.tscn
+res://hearts.gd
+res://bob.gd
+res://newcoin.gd
+res://endscreen.tscn
+res://Button.gd
+res://quit.gd

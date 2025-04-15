@@ -1,25 +1,25 @@
 [gd_scene load_steps=5 format=3 uid="uid://b2l1obwd3u8lt"]
 
-[ext_resource type="ArrayMesh" uid="uid://8jn3dc5nj6t" path="res://key/21929_Key_v1.obj" id="1_4pycd"]
+[ext_resource type="ArrayMesh" uid="uid://30w4gx1py3nq" path="res://Key1.obj" id="1_rqlhy"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_v3kwv"]
 size = Vector3(1.8388, 1, 4.71609)
 
 [sub_resource type="Skin" id="Skin_k7tk4"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cfwri"]
-albedo_color = Color(0.670588, 0.666667, 0, 1)
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ghnmj"]
+albedo_color = Color(0.584314, 0.580392, 0.278431, 1)
 
 [node name="Area3D" type="Area3D"]
 transform = Transform3D(0.343551, 0, 0, 0, 0.343551, 0, 0, 0, 0.343551, 0, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="keyCol" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0292844, -0.0207915, 2.29443)
 shape = SubResource("BoxShape3D_v3kwv")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.2, 0, 0, 0, 1, 0, 0, 0)
-mesh = ExtResource("1_4pycd")
+transform = Transform3D(0.26654, 0, 0, 0, -1.13244e-08, -0.290277, 0, 0.259071, -1.26884e-08, 0, 0, 0)
+mesh = ExtResource("1_rqlhy")
 skin = SubResource("Skin_k7tk4")
-skeleton = NodePath("../CollisionShape3D")
-surface_material_override/0 = SubResource("StandardMaterial3D_cfwri")
+skeleton = NodePath("../keyCol")
+surface_material_override/0 = SubResource("StandardMaterial3D_ghnmj")
