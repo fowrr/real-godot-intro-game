@@ -1,26 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1744821785
-AnimationPlayer.gd::GDScript::-1::1744740405::0::1::::<>AnimationPlayer<>::
+::res://::1744834386
+AnimationPlayer.gd::GDScript::-1::1744833297::0::1::::<>AnimationPlayer<>::
 bob.gd::GDScript::-1::1744821621::0::1::::<>CharacterBody3D<>::
-bob.tscn::PackedScene::6551140148221256345::1744740405::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj<>res://Camera.gd
+bob.tscn::PackedScene::6551140148221256345::1744834386::0::1::::<><>::uid://v26npvndik57::::res://Funky Esboo/tinker.obj<>res://Camera.gd
 Button.gd::GDScript::-1::1744734914::0::1::::<>Button<>::
 Camera3D.gd::GDScript::-1::1744641643::0::1::::<>Camera3D<>::
 Camera.gd::GDScript::-1::1744641643::0::1::::<>Camera3D<>::
-castle.tscn::PackedScene::3958828022746986176::1744821621::0::1::::<><>::
-coin label.gd::GDScript::-1::1744821621::0::1::::<>Label<>::
-coin.tscn::PackedScene::4305831346824825165::1744740405::0::1::::<><>::uid://30w4gx1py3nq::::res://Key1.obj
+castle.tscn::PackedScene::3958828022746986176::1744834386::0::1::::<><>::
+coin label.gd::GDScript::-1::1744833297::0::1::::<>Label<>::
+coin.tscn::PackedScene::4305831346824825165::1744834386::0::1::::<><>::uid://30w4gx1py3nq::::res://Key1.obj
 cutTime.gd::GDScript::-1::1744641643::0::1::::<>Timer<>::
-endscreen.tscn::PackedScene::4013165111076368206::1744734914::0::1::::<><>::res://Button.gd<>res://quit.gd
+endscreen.tscn::PackedScene::4013165111076368206::1744834386::0::1::::<><>::res://Button.gd<>res://quit.gd
 goomba goombaaa.gd::GDScript::-1::1744736988::0::1::::<>Area3D<>::
-goomba goombaaa.tscn::PackedScene::3632177434779256102::1744740405::0::1::::<><>::uid://bv60r8d0unlc::::res://Funky Esboo/goomba/Goomba.obj
-grass_new_from.mariothing.tres::StandardMaterial3D::5322287319906593379::1744737110::0::1::::<><>::uid://yixqndp5n5aq::::res://textures/grass_texture.tres
+goomba goombaaa.tscn::PackedScene::3632177434779256102::1744834386::0::1::::<><>::uid://bv60r8d0unlc::::res://Funky Esboo/goomba/Goomba.obj
+grass_new_from.mariothing.tres::StandardMaterial3D::5322287319906593379::1744833297::0::1::::<><>::uid://yixqndp5n5aq::::res://textures/grass_texture.tres
 hearts.gd::GDScript::-1::1744821621::0::1::::<>TextureRect<>::
 icon.svg::CompressedTexture2D::5371626135603481118::1741615493::1741615502::1::::<><>::
-intro.tscn::PackedScene::1822030363186828052::1744821621::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>uid://dqejuk3v2nn0v::::res://textures/mheart.webp<>uid://b4lxgn28ftvfo::::res://textures/dead-heart.png<>res://hearts.gd<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://Camera3D.gd<>res://AnimationPlayer.gd<>res://megashroom_player.gd<>uid://br0poxa4unw1s::::res://goomba goombaaa.tscn<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn<>res://goomba goombaaa.gd<>res://cutTime.gd<>res://Label.gd<>uid://yixqndp5n5aq::::res://textures/grass_texture.tres<>res://mushroom.tscn<>res://mushroom.gd<>uid://fiyg6xgvj70y::::res://thwomp.tscn<>res://thwomp.gd
+intro.tscn::PackedScene::1822030363186828052::1744834386::0::1::::<><>::uid://ch3fkarrcv4u6::::res://grass_new_from.mariothing.tres<>uid://dspjnvkpirclk::::res://Funky Esboo/new_standard_material_3d.tres<>uid://c0lok6g2yht6x::::res://bob.tscn<>res://bob.gd<>uid://b2l1obwd3u8lt::::res://coin.tscn<>res://coin label.gd<>uid://dqejuk3v2nn0v::::res://textures/mheart.webp<>uid://b4lxgn28ftvfo::::res://textures/dead-heart.png<>res://hearts.gd<>res://time label.gd<>res://newcoin.gd<>uid://y0c3uvovcb4d::::res://Funky Esboo/wall-narrow-gate.obj<>uid://dihkkrkqr52sy::::res://Funky Esboo/metal-gate.obj<>res://Camera3D.gd<>res://AnimationPlayer.gd<>res://megashroom_player.gd<>uid://br0poxa4unw1s::::res://goomba goombaaa.tscn<>uid://btnb4r1bangis::::res://Funky Esboo/Textures/maze skeleton1.tscn<>res://goomba goombaaa.gd<>res://cutTime.gd<>res://Label.gd<>uid://yixqndp5n5aq::::res://textures/grass_texture.tres<>uid://dpfqh3mpu5e5d::::res://mushroom.tscn<>res://mushroom.gd<>uid://fiyg6xgvj70y::::res://thwomp.tscn<>res://thwomp.gd
 Key1.obj::Mesh::2018284979453449962::1744734914::1744734914::1::::<><>::
 Label.gd::GDScript::-1::1744643279::0::1::::<>Label<>::
 megashroom_player.gd::GDScript::-1::1744821621::0::1::::<>AnimationPlayer<>::
-menu.tscn::PackedScene::2400573243275742641::1744740405::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
+menu.tscn::PackedScene::2400573243275742641::1744834386::0::1::::<><>::res://start botten.gd<>res://quit botten.gd
 miniature_climb_mountain.tscn::PackedScene::7773008176002933167::1744205767::0::1::::<><>::uid://cfw2a0my70j1g
 mushroom.gd::GDScript::-1::1744821621::0::1::::<>Area3D<>::
 mushroom.tscn::PackedScene::8223402056762585375::1744740405::0::1::::<><>::uid://b1gepme7fvy6u
@@ -30,12 +30,12 @@ quit.gd::GDScript::-1::1744734914::0::1::::<>Button<>::
 Real jenny.tscn::PackedScene::7589582016165087087::1743702214::0::1::::<><>::res://CharacterBody3D.gd<>uid://v26npvndik57
 start botten.gd::GDScript::-1::1743701472::0::1::::<>Button<>::
 thwomp.gd::GDScript::-1::1744821621::0::1::::<>Area3D<>::
-thwomp.tscn::PackedScene::368928826867887874::1744821621::0::1::::<><>::uid://bei16sao2mtva::::res://Thwomp Trophy/Dosun.obj
-time label.gd::GDScript::-1::1744821621::0::1::::<>Label<>::
+thwomp.tscn::PackedScene::368928826867887874::1744834386::0::1::::<><>::uid://bei16sao2mtva::::res://Thwomp Trophy/Dosun.obj
+time label.gd::GDScript::-1::1744833961::0::1::::<>Label<>::
 tinker.obj::Mesh::4778442374596398799::1742924720::1742924752::1::::<><>::
-::res://Funky Esboo/::1744737110
+::res://Funky Esboo/::1744833297
 metal-gate.obj::Mesh::7735849381424586344::1744049731::1744641680::1::::<><>::uid://c41irwtaoi22r
-new_standard_material_3d.tres::StandardMaterial3D::8454197690261734640::1744737110::0::1::::<><>::uid://cutk8ktlqxvbf::::res://Funky Esboo/mt beanpole/CS_SoilLayer15_alb.png
+new_standard_material_3d.tres::StandardMaterial3D::8454197690261734640::1744833297::0::1::::<><>::uid://cutk8ktlqxvbf::::res://Funky Esboo/mt beanpole/CS_SoilLayer15_alb.png
 tinker.obj::Mesh::1531610178740959508::1743431452::1743431474::1::::<><>::
 wall-narrow-gate.obj::Mesh::1736314210951276993::1744049735::1744641680::1::::<><>::uid://c41irwtaoi22r
 ::res://Funky Esboo/goomba/::1744641679
@@ -65,17 +65,17 @@ CS_TreeLongC00_alb.png::CompressedTexture2D::7258960398146737277::1744205767::17
 CS_TreeLongC_Leaf_alb.png::CompressedTexture2D::6651350375716302904::1744205767::1744205767::1::::<><>::
 CS_Wood06_alb.png::CompressedTexture2D::3208594097364629150::1744205767::1744205767::1::::<><>::
 MiniatureClimbMountain.dae::PackedScene::5170842587725987046::1744205767::1744205767::1::::<><>::
-::res://Funky Esboo/Textures/::1744740405
+::res://Funky Esboo/Textures/::1744834386
 10 by 10 orthogonal maze.png::CompressedTexture2D::3727042975753660142::1744205767::1744205767::1::::<><>::
-brick best.tres::StandardMaterial3D::920045889615398006::1744737110::0::1::::<><>::uid://b341x3rqwb3ax::::res://textures/mario bricj.jpg
+brick best.tres::StandardMaterial3D::920045889615398006::1744833297::0::1::::<><>::uid://b341x3rqwb3ax::::res://textures/mario bricj.jpg
 colormap.png::CompressedTexture2D::6862508933817252723::1744049735::1744052011::1::::<><>::
-maze skeleton1.tscn::PackedScene::3746959061742322754::1744740405::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
+maze skeleton1.tscn::PackedScene::3746959061742322754::1744834386::0::1::::<><>::uid://btdn4anou7r4q::::res://Funky Esboo/Textures/10 by 10 orthogonal maze.png<>uid://ndxayym8dpek::::res://Funky Esboo/Textures/brick best.tres
 ::res://Mega Mushroom/::1744737619
 KinokoBig.obj::Mesh::4223987177606829834::1744735988::1744736004::1::::<><>::uid://cjiaydpcs5nvb
 KinokoBig_alb.png::CompressedTexture2D::920220654017752150::1744735605::1744736013::1::::<><>::
 KinokoBig_nrm.png::CompressedTexture2D::5421099022072925711::1744735605::1744736139::1::::<><>::
 KinokoBig_spc.png::CompressedTexture2D::931613486029358387::1744735605::1744736144::1::::<><>::
-::res://textures/::1744649932
+::res://textures/::1744835128
 Bricks066_1K-JPG_Color.jpg::CompressedTexture2D::4488140270501872546::1741889123::1741889127::1::::<><>::
 dead-heart.png::CompressedTexture2D::4446013236107848788::1744649891::1744649932::1::::<><>::
 grass texture godot.jpg::CompressedTexture2D::3996243865356750190::1742480063::1742480071::1::::<><>::
@@ -84,6 +84,185 @@ mario bricj.jpg::CompressedTexture2D::4413196473169398959::1744205767::174420576
 mario grass-ground texture.jpg::CompressedTexture2D::7979226599938747370::1742479161::1742479224::1::::<><>::
 mheart.webp::CompressedTexture2D::8291123798595833427::1744649253::1744649517::1::::<><>::
 Tiles093_1K-JPG_Color.jpg::CompressedTexture2D::8854920866230537277::1741887223::1741887230::1::::<><>::
+::res://textures/file for castle textures/::1744835133
+::res://textures/file for castle textures/castle kit 1/::1744835133
+::res://textures/file for castle textures/castle kit 1/GLB format/::1744049730
+bridge-draw.glb::PackedScene::1973543834267535065::1744049726::1744835152::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+bridge-straight-pillar.glb::PackedScene::4243822140236748463::1744049726::1744835148::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+bridge-straight.glb::PackedScene::3829993767681645885::1744049726::1744835147::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+door.glb::PackedScene::7682628120551338317::1744049727::1744835178::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+flag-banner-long.glb::PackedScene::960458299012213634::1744049727::1744835177::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+flag-banner-short.glb::PackedScene::4343728721115199848::1744049727::1744835177::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+flag-pennant.glb::PackedScene::5587290145238849853::1744049727::1744835177::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+flag-wide.glb::PackedScene::8277262632660761022::1744049727::1744835176::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+flag.glb::PackedScene::8439925194121877378::1744049727::1744835176::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+gate.glb::PackedScene::2956247196660724939::1744049727::1744835176::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+ground-hills.glb::PackedScene::3112885498761907238::1744049727::1744835167::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+ground.glb::PackedScene::8716340835837068588::1744049727::1744835167::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+metal-gate.glb::PackedScene::4905185710017684818::1744049727::1744835168::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+rocks-large.glb::PackedScene::5969256796270500933::1744049727::1744835168::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+rocks-small.glb::PackedScene::297078231354363219::1744049727::1744835168::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-ballista-demolished.glb::PackedScene::4772759655853674074::1744049727::1744835169::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-ballista.glb::PackedScene::6944258825945910114::1744049727::1744835169::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-catapult-demolished.glb::PackedScene::5331259820832378435::1744049727::1744835169::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-catapult.glb::PackedScene::7145337833481114376::1744049727::1744835170::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-ram-demolished.glb::PackedScene::5335437653082879316::1744049727::1744835170::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-ram.glb::PackedScene::853384548531105984::1744049727::1744835170::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-tower-demolished.glb::PackedScene::9186972854606798591::1744049727::1744835171::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-tower.glb::PackedScene::7634671061278031441::1744049727::1744835171::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-trebuchet-demolished.glb::PackedScene::2447294370123980799::1744049727::1744835171::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+siege-trebuchet.glb::PackedScene::5675758638391382374::1744049728::1744835172::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+stairs-stone-square.glb::PackedScene::4724361354029719887::1744049728::1744835172::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+stairs-stone.glb::PackedScene::2732193411441850271::1744049728::1744835172::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-base.glb::PackedScene::2717018368971315472::1744049728::1744835172::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-base.glb::PackedScene::5319181345345166005::1744049728::1744835173::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-mid.glb::PackedScene::5096486257826435::1744049728::1744835173::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-roof-secondary.glb::PackedScene::3764086294352156130::1744049728::1744835161::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-roof.glb::PackedScene::8271691220455859376::1744049728::1744835162::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-top-wood.glb::PackedScene::8404437817521104048::1744049728::1744835162::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-hexagon-top.glb::PackedScene::1376872891281272224::1744049728::1744835162::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-slant-roof.glb::PackedScene::7173196629632637894::1744049728::1744835163::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-arch.glb::PackedScene::905324510364319688::1744049728::1744835163::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-base-border.glb::PackedScene::6102267689008375198::1744049728::1744835163::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-base-color.glb::PackedScene::4565013964100841372::1744049728::1744835163::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-base.glb::PackedScene::446187765852446942::1744049728::1744835164::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid-color.glb::PackedScene::7883273556035997534::1744049728::1744835164::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid-door.glb::PackedScene::7414372316901456685::1744049728::1744835164::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid-open-simple.glb::PackedScene::449683462420555393::1744049728::1744835165::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid-open.glb::PackedScene::2203241694989897196::1744049728::1744835165::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid-windows.glb::PackedScene::2336787634089226486::1744049728::1744835165::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-mid.glb::PackedScene::2856502183466694369::1744049728::1744835166::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-roof.glb::PackedScene::2118293477127994384::1744049729::1744835166::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top-color.glb::PackedScene::2489467839927623404::1744049729::1744835166::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top-roof-high-windows.glb::PackedScene::8641547546170041195::1744049729::1744835166::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top-roof-high.glb::PackedScene::8099846811986109754::1744049729::1744835167::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top-roof-rounded.glb::PackedScene::7398689859074267277::1744049729::1744835180::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top-roof.glb::PackedScene::1196573137029842286::1744049729::1744835180::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square-top.glb::PackedScene::1639172314953508710::1744049729::1744835180::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-square.glb::PackedScene::277098875717329510::1744049729::1744835181::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tower-top.glb::PackedScene::7037881145249451027::1744049729::1744835181::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tree-large.glb::PackedScene::4929445203417308749::1744049729::1744835181::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tree-log.glb::PackedScene::1184263024381885139::1744049729::1744835182::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tree-small.glb::PackedScene::6158293777491918977::1744049729::1744835182::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+tree-trunk.glb::PackedScene::7627611523787039823::1744049729::1744835182::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-corner-half-tower.glb::PackedScene::8853805119048924083::1744049729::1744835183::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-corner-half.glb::PackedScene::4979721067755328271::1744049729::1744835183::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-corner-slant.glb::PackedScene::7466174744637065986::1744049729::1744835183::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-corner.glb::PackedScene::6389378997811163242::1744049729::1744835184::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-doorway.glb::PackedScene::7436545109612100592::1744049729::1744835184::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-half-modular.glb::PackedScene::3817173579266553517::1744049729::1744835184::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-half.glb::PackedScene::2052575153835208331::1744049729::1744835185::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-corner.glb::PackedScene::2076476600002727513::1744049729::1744835185::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-gate.glb::PackedScene::4003672627702229658::1744049729::1744835185::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-stairs-rail.glb::PackedScene::8888260895150359773::1744049730::1744835185::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-stairs.glb::PackedScene::2235699328515292896::1744049730::1744835186::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-wood-fence.glb::PackedScene::5833978129650346519::1744049730::1744835173::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow-wood.glb::PackedScene::1678926867279124015::1744049730::1744835174::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-narrow.glb::PackedScene::7178966629014962324::1744049730::1744835174::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-pillar.glb::PackedScene::3675156512188960157::1744049730::1744835174::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-stud.glb::PackedScene::6660696380765716898::1744049730::1744835175::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall-to-narrow.glb::PackedScene::960949865414809751::1744049730::1744835175::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+wall.glb::PackedScene::1583840910901621716::1744049730::1744835175::1::::<><>::uid://ujj73in0cjjr::::res://textures/file for castle textures/castle kit 1/GLB format/Textures/colormap.png
+::res://textures/file for castle textures/castle kit 1/GLB format/Textures/::1744049730
+colormap.png::CompressedTexture2D::1422961354523438119::1744049730::1744835189::1::::<><>::
+::res://textures/file for castle textures/castle kit 1/Textures/::1744049736
+variation-a.png::CompressedTexture2D::6132519135728361709::1744049735::1744835136::1::::<><>::
+variation-b.png::CompressedTexture2D::5904915044370635395::1744049735::1744835136::1::::<><>::
+variation-c.png::CompressedTexture2D::657961054782961484::1744049735::1744835136::1::::<><>::
+variation-d.png::CompressedTexture2D::2590303827241374006::1744049735::1744835136::1::::<><>::
+variation-e.png::CompressedTexture2D::5531601488831515894::1744049735::1744835136::1::::<><>::
+variation-f.png::CompressedTexture2D::3770816624649167992::1744049736::1744835136::1::::<><>::
+variation-g.png::CompressedTexture2D::6775770821001808199::1744049736::1744835136::1::::<><>::
+::res://textures/file for castle textures/castle kit 2/::1744835057
+::res://textures/file for castle textures/castle kit 2/blue/::1744834768
+building_archeryrange_blue.gltf::PackedScene::8120744488331957968::1744834767::1744835178::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_barracks_blue.gltf::PackedScene::2339786594436387481::1744834767::1744835178::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_blacksmith_blue.gltf::PackedScene::8488932771699778182::1744834767::1744835179::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_castle_blue.gltf::PackedScene::4804228640547976371::1744834767::1744835179::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_church_blue.gltf::PackedScene::6525470929601182293::1744834767::1744835179::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_home_A_blue.gltf::PackedScene::2235578685049782001::1744834767::1744835179::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_home_B_blue.gltf::PackedScene::1417986795538560994::1744834767::1744835143::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_lumbermill_blue.gltf::PackedScene::5639473529922592412::1744834767::1744835143::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_market_blue.gltf::PackedScene::4830922405485910547::1744834767::1744835143::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_mine_blue.gltf::PackedScene::2758498021323313968::1744834767::1744835144::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_tavern_blue.gltf::PackedScene::2694334246906756269::1744834767::1744835144::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_tower_A_blue.gltf::PackedScene::1267235501990123199::1744834767::1744835144::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_tower_base_blue.gltf::PackedScene::5047548239473106644::1744834767::1744835145::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_tower_B_blue.gltf::PackedScene::6311302140694065262::1744834767::1744835145::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_tower_catapult_blue.gltf::PackedScene::2902866359861176723::1744834768::1744835145::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_watermill_blue.gltf::PackedScene::6976131877380054863::1744834768::1744835146::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_well_blue.gltf::PackedScene::4899267784517385228::1744834768::1744835146::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+building_windmill_blue.gltf::PackedScene::7706342822463327326::1744834768::1744835146::1::::<><>::uid://tfmtdg8mhdc6::::res://textures/file for castle textures/castle kit 2/blue/hexagons_medieval.png
+hexagons_medieval.png::CompressedTexture2D::1344672620244865415::1744834768::1744835189::1::::<><>::
+::res://textures/file for castle textures/castle kit 2/nature/::1744834774
+cloud_big.gltf::PackedScene::1153733687807372904::1744834772::1744835147::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+cloud_small.gltf::PackedScene::3227099775103571694::1744834772::1744835147::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hexagons_medieval.png::CompressedTexture2D::7652132913922476155::1744834772::1744835189::1::::<><>::
+hills_A.gltf::PackedScene::6361894959959831261::1744834772::1744835148::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hills_A_trees.gltf::PackedScene::7691209830481859538::1744834772::1744835148::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hills_B.gltf::PackedScene::918076909386888660::1744834772::1744835149::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hills_B_trees.gltf::PackedScene::34690267481558834::1744834772::1744835149::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hills_C.gltf::PackedScene::2410662835742027051::1744834772::1744835137::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hills_C_trees.gltf::PackedScene::5360053274751839038::1744834772::1744835137::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hill_single_A.gltf::PackedScene::4661650956505947814::1744834772::1744835137::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hill_single_B.gltf::PackedScene::3172940401151477026::1744834772::1744835138::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+hill_single_C.gltf::PackedScene::5540681739939971138::1744834772::1744835138::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_A.gltf::PackedScene::4439999439472565393::1744834772::1744835138::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_A_grass.gltf::PackedScene::7091200525314336780::1744834772::1744835139::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_A_grass_trees.gltf::PackedScene::2119386687033728702::1744834772::1744835139::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_B.gltf::PackedScene::5558021969190555522::1744834772::1744835139::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_B_grass.gltf::PackedScene::6359433571827079331::1744834772::1744835140::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_B_grass_trees.gltf::PackedScene::6023764085170596072::1744834772::1744835140::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_C.gltf::PackedScene::6187182860275235718::1744834773::1744835140::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_C_grass.gltf::PackedScene::569776531473099422::1744834773::1744835140::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+mountain_C_grass_trees.gltf::PackedScene::4150277332824596086::1744834773::1744835141::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+rock_single_A.gltf::PackedScene::4916816326425860719::1744834773::1744835141::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+rock_single_B.gltf::PackedScene::5430196298837580492::1744834773::1744835141::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+rock_single_C.gltf::PackedScene::7110458274168433493::1744834773::1744835142::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+rock_single_D.gltf::PackedScene::5980133825775161634::1744834773::1744835142::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+rock_single_E.gltf::PackedScene::1051442493403213359::1744834773::1744835142::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_A_cut.gltf::PackedScene::2900140433035205700::1744834773::1744835155::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_A_large.gltf::PackedScene::2300972159985927566::1744834773::1744835155::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_A_medium.gltf::PackedScene::8014754692860114247::1744834773::1744835156::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_A_small.gltf::PackedScene::4321739155725893941::1744834773::1744835156::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_B_cut.gltf::PackedScene::3728950363706032107::1744834773::1744835156::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_B_large.gltf::PackedScene::5411971799250462174::1744834773::1744835157::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_B_medium.gltf::PackedScene::7678888359770587588::1744834773::1744835157::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+trees_B_small.gltf::PackedScene::8693565734385012251::1744834773::1744835157::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+tree_single_A.gltf::PackedScene::8915150146258680753::1744834773::1744835158::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+tree_single_A_cut.gltf::PackedScene::3290465065257368318::1744834773::1744835158::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+tree_single_B.gltf::PackedScene::4672007209309515610::1744834773::1744835158::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+tree_single_B_cut.gltf::PackedScene::5185515357469760501::1744834773::1744835158::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+waterlily_A.gltf::PackedScene::5126653409062482047::1744834773::1744835159::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+waterlily_B.gltf::PackedScene::8839977255969282190::1744834773::1744835159::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+waterplant_A.gltf::PackedScene::3649849477049188::1744834774::1744835159::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+waterplant_B.gltf::PackedScene::405706595936620363::1744834774::1744835160::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+waterplant_C.gltf::PackedScene::9062999966688506495::1744834774::1744835160::1::::<><>::uid://dha0rm3luecfj::::res://textures/file for castle textures/castle kit 2/nature/hexagons_medieval.png
+::res://textures/file for castle textures/castle kit 2/neutral/::1744834770
+building_bridge_A.gltf::PackedScene::4788725016330951746::1744834769::1744835160::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_bridge_B.gltf::PackedScene::192112116500200465::1744834769::1744835161::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_destroyed.gltf::PackedScene::3708070440785778945::1744834769::1744835161::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_dirt.gltf::PackedScene::8442544931060749353::1744834769::1744835149::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_grain.gltf::PackedScene::742209813180871583::1744834769::1744835149::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_scaffolding.gltf::PackedScene::7885787874828087159::1744834769::1744835150::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_stage_A.gltf::PackedScene::1558048071328707659::1744834769::1744835150::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_stage_B.gltf::PackedScene::5929132700737166994::1744834769::1744835150::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+building_stage_C.gltf::PackedScene::7166811586714359879::1744834769::1744835151::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+fence_stone_straight.gltf::PackedScene::7543451474599444152::1744834769::1744835151::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+fence_stone_straight_gate.gltf::PackedScene::8615852023702750720::1744834769::1744835151::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+fence_wood_straight.gltf::PackedScene::1887050011999395394::1744834769::1744835152::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+fence_wood_straight_gate.gltf::PackedScene::4330279659731313365::1744834769::1744835152::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+hexagons_medieval.png::CompressedTexture2D::6192088983502828445::1744834769::1744835189::1::::<><>::
+projectile_catapult.gltf::PackedScene::5595652312853514269::1744834769::1744835153::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_corner_A_gate.gltf::PackedScene::5876728093813028383::1744834769::1744835153::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_corner_A_inside.gltf::PackedScene::7137313651944510443::1744834770::1744835153::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_corner_A_outside.gltf::PackedScene::525417129648452019::1744834770::1744835154::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_corner_B_inside.gltf::PackedScene::537733742658111091::1744834770::1744835154::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_corner_B_outside.gltf::PackedScene::3020443485067854336::1744834770::1744835154::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_straight.gltf::PackedScene::6710889843223118853::1744834770::1744835154::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+wall_straight_gate.gltf::PackedScene::3959102767302849885::1744834770::1744835155::1::::<><>::uid://cuhq2h25qgmq4::::res://textures/file for castle textures/castle kit 2/neutral/hexagons_medieval.png
+::res://textures/file for castle textures/castle kit 2/Textures/::1744834788
+hexagons_medieval.png::CompressedTexture2D::5532906784783842672::1744834788::1744835136::1::::<><>::
 ::res://Thwomp Trophy/::1744821621
 dossun_eye.0.png::CompressedTexture2D::8164928416259195168::1744821621::1744821621::1::::<><>::
 dossun_face.0.png::CompressedTexture2D::3084557002082849186::1744821621::1744821621::1::::<><>::

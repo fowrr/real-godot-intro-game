@@ -1,0 +1,32 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://b1d3bhjq4yq"
+path="res://.godot/imported/waterplant_A.gltf-fff27b252f92a931d79f5c4b70c642c0.scn"
+
+[deps]
+
+source_file="res://textures/file for castle textures/castle kit 2/nature/waterplant_A.gltf"
+dest_files=["res://.godot/imported/waterplant_A.gltf-fff27b252f92a931d79f5c4b70c642c0.scn"]
+
+[params]
+
+nodes/root_type="Node3D"
+nodes/root_name="Scene Root"
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+import_script/path=""
+_subresources={}
+gltf/embedded_image_handling=1

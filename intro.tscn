@@ -22,7 +22,7 @@
 [ext_resource type="Script" path="res://cutTime.gd" id="15_jax3g"]
 [ext_resource type="Script" path="res://Label.gd" id="17_jlws0"]
 [ext_resource type="Texture2D" uid="uid://yixqndp5n5aq" path="res://textures/grass_texture.tres" id="18_i66n1"]
-[ext_resource type="PackedScene" path="res://mushroom.tscn" id="23_leqi5"]
+[ext_resource type="PackedScene" uid="uid://dpfqh3mpu5e5d" path="res://mushroom.tscn" id="23_leqi5"]
 [ext_resource type="Script" path="res://mushroom.gd" id="24_cmqsp"]
 [ext_resource type="PackedScene" uid="uid://fiyg6xgvj70y" path="res://thwomp.tscn" id="25_hkco1"]
 [ext_resource type="Script" path="res://thwomp.gd" id="26_jht8x"]
@@ -349,7 +349,7 @@ one_shot = true
 autostart = true
 
 [node name="jennifer" parent="." instance=ExtResource("3_r1tvm")]
-transform = Transform3D(1, -1.79366e-43, -7.10543e-15, 0, 1, -2.52435e-29, 7.10543e-15, 2.52435e-29, 1, 6.75361, 1.68218, -11.8257)
+transform = Transform3D(1, 0, -7.10543e-15, 0, 1, -2.52435e-29, 7.10543e-15, 2.52435e-29, 1, 6.75361, 1.68218, -11.8257)
 script = ExtResource("4_x1hif")
 
 [node name="megashroom_player" type="AnimationPlayer" parent="jennifer"]
