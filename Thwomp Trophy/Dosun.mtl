@@ -1,0 +1,56 @@
+# Material file for Dosun.obj
+
+newmtl dossun_eye
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_eye.0.png
+
+newmtl dossun_face
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_face.0.png
+
+newmtl dossun_horn
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_horn.png
+
+newmtl dossun_stone1
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_stone1.png
+
+newmtl dossun_stone2
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_stone2.png
+
+newmtl dossun_tooth
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd dossun_tooth.png
+

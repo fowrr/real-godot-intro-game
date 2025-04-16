@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://bwnxk36t1yn1y"]
+
+[node name="maze skele2" type="Node3D"]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]

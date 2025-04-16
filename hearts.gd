@@ -3,7 +3,8 @@ var lives = 3 #might have to @onready
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	lives += 1
+	#lives += 2
+	pass
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -23,4 +24,12 @@ func _process(delta):
 
 
 func _on_goomba_body_entered(body):
-	lives -= 1
+	if body.get_name() == "jennifer":
+		lives -= 1
+
+
+
+
+func _on_node_3d_3_body_entered(body):
+	if body.get_name() == "jennifer":
+		lives -=1

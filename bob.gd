@@ -1,6 +1,6 @@
 extends CharacterBody3D
 
-var mushroom = 0
+
 const SPEED = 5.0
 const JUMP_VELOCITY = 0.0
 func _ready():
@@ -70,8 +70,4 @@ func _on_timer_timeout():
 
 
 
-func _on_mushroom_body_entered(body):
-	print(mushroom)
-	mushroom += 1
-	if mushroom > 2:
-		
+
