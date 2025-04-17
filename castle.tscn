@@ -1,5 +1,51 @@
-[gd_scene format=3 uid="uid://bwnxk36t1yn1y"]
+[gd_scene load_steps=6 format=3 uid="uid://bwnxk36t1yn1y"]
+
+[ext_resource type="Texture2D" uid="uid://ccw43amxi3ea6" path="res://10 by 10 orthogonal maze.png" id="1_0j36b"]
+[ext_resource type="PackedScene" uid="uid://c2u2m01u44t86" path="res://textures/file for castle textures/castle kit 2/neutral/wall_straight.gltf" id="2_dolxp"]
+[ext_resource type="PackedScene" uid="uid://hqrsqei0gc4r" path="res://textures/file for castle textures/castle kit 2/neutral/wall_corner_A_outside.gltf" id="3_dn5vc"]
+[ext_resource type="PackedScene" uid="uid://c8xmrpd24c01t" path="res://textures/file for castle textures/castle kit 2/neutral/wall_corner_A_inside.gltf" id="4_h4uwv"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1wg2n"]
+albedo_texture = ExtResource("1_0j36b")
 
 [node name="maze skele2" type="Node3D"]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
+size = Vector3(32, 0.5, 32)
+material = SubResource("StandardMaterial3D_1wg2n")
+
+[node name="wall_straight" parent="." instance=ExtResource("2_dolxp")]
+transform = Transform3D(14.2432, 0, 0, 0, 4.25278, 0, 0, 0, 1, 0.0208364, 0.250316, 15.6726)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="wall_straight"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.90333, 0, 0, 0)
+visible = false
+size = Vector3(2.00147, 1.72363, 0.522188)
+
+[node name="wall_corner_A_outside" parent="." instance=ExtResource("3_dn5vc")]
+transform = Transform3D(0.497716, 0, -0.86734, 0, 4.59289, 0, 0.86734, 0, 0.497716, -15.0742, -0.0227428, 15.7013)
+
+[node name="wall_corner_A_outside2" parent="." instance=ExtResource("3_dn5vc")]
+transform = Transform3D(-0.0880424, 0, -0.996117, 0, 4.59289, 0, 0.996117, 0, -0.0880424, -15.7223, 0.0354027, 15.0578)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="wall_corner_A_outside2"]
+transform = Transform3D(-0.0880425, 0, 0.996117, 0, 1, 0, -0.996117, 0, -0.0880425, -0.124535, 0.311651, -0.778399)
+size = Vector3(1.88805, 1, 1.91377)
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="wall_corner_A_outside2/CSGBox3D2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.741775, 0.0963025, -0.773434)
+operation = 2
+radius = 1.17915
+sides = 64
+
+[node name="wall_corner_A_inside" parent="." instance=ExtResource("4_h4uwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.32095, 0, 19.9279)
+
+[node name="wall_corner_A_inside2" parent="." instance=ExtResource("4_h4uwv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.97014, 0, 20.3164)
+
+[node name="wall_corner_A_outside3" parent="." instance=ExtResource("3_dn5vc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.64625, 0, 21.2995)
+
+[node name="wall_straight2" parent="." instance=ExtResource("2_dolxp")]
+transform = Transform3D(-13.9172, 0, -8.74229e-08, 0, 4.56171, 0, 1.21668e-06, 0, -1, -0.00761795, 0, 15.4391)

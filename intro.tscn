@@ -1,4 +1,4 @@
-[gd_scene load_steps=43 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=44 format=3 uid="uid://07utrn1em5wq"]
 
 [ext_resource type="Material" uid="uid://ch3fkarrcv4u6" path="res://grass_new_from.mariothing.tres" id="1_7gaq6"]
 [ext_resource type="Material" uid="uid://dspjnvkpirclk" path="res://Funky Esboo/new_standard_material_3d.tres" id="2_gpgow"]
@@ -26,6 +26,7 @@
 [ext_resource type="Script" path="res://mushroom.gd" id="24_cmqsp"]
 [ext_resource type="PackedScene" uid="uid://fiyg6xgvj70y" path="res://thwomp.tscn" id="25_hkco1"]
 [ext_resource type="Script" path="res://thwomp.gd" id="26_jht8x"]
+[ext_resource type="PackedScene" uid="uid://cufd86ntiqsxq" path="res://textures/file for castle textures/castle kit 2/nature/mountain_C.gltf" id="27_jiksi"]
 
 [sub_resource type="Animation" id="Animation_fgfa8"]
 resource_name = "mushroom_anim"
@@ -470,6 +471,12 @@ physics_material_override = SubResource("PhysicsMaterial_jnc7y")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D3/StaticBody3D"]
 shape = SubResource("BoxShape3D_a0f1v")
+
+[node name="mountain_C" parent="." instance=ExtResource("27_jiksi")]
+transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 5.45735, -1.78422, 0.820529, -20.5835)
+
+[node name="mountain_C2" parent="." instance=ExtResource("27_jiksi")]
+transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 5.45735, -9.78855, 0.820529, -20.5835)
 
 [connection signal="thwomp" from="HUD/time label" to="Node3D3" method="_on_time_label_thwomp"]
 [connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]

@@ -1,8 +1,12 @@
 CollisionShape3D
-StaticBody3D
-AnimationPlayer
+CSGSphere3D
+ShapeCast3D
 Area3D
 CSGBox3D
+CSGCylinder3D
+CSGPolygon3D
+StaticBody3D
+AnimationPlayer
 MeshInstance3D
 Button
 Label
@@ -16,4 +20,3 @@ SpringArm3D
 RayCast3D
 Node
 CSGCombiner3D
-CSGCylinder3D
