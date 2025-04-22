@@ -11,7 +11,7 @@ func _ready():
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 var mouse_sens = 0.3
-var camera_anglev=0
+#var camera_anglev=0
 
 #func _process(delta):
 	#if camCollision.is_colliding():

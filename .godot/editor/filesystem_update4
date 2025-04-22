@@ -7,8 +7,23 @@ res://Funky Esboo/Textures/brick best.tres
 res://coin.tscn
 res://bob.tscn
 res://Funky Esboo/Textures/maze skeleton1.tscn
-res://goomba goombaaa.tscn
 res://menu.tscn
 res://endscreen.tscn
-res://castle.tscn
+res://goomba goombaaa.tscn
 res://thwomp.tscn
+res://boweser.tscn
+res://boweser.gd
+res://BACK.gd
+res://how-to.tscn
+res://start botten.gd
+res://how-to.gd
+res://labelforbarricade.gd
+res://win.tscn
+res://2ndKey.tscn
+res://Label.gd
+res://newcoin.gd
+res://time label.gd
+res://hearts.gd
+res://2ndKey.gd
+res://barricade.gd
+res://items.gd

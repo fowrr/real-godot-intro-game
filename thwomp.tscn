@@ -3,7 +3,7 @@
 [ext_resource type="ArrayMesh" uid="uid://bei16sao2mtva" path="res://Thwomp Trophy/Dosun.obj" id="1_w4t6q"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_le2nd"]
-size = Vector3(14.581, 16.2897, 10.73)
+size = Vector3(14.581, 16, 10.73)
 
 [node name="Node3D" type="Area3D"]
 

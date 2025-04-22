@@ -1,0 +1,56 @@
+[gd_scene load_steps=4 format=3 uid="uid://bh4msec4v60fb"]
+
+[ext_resource type="Script" path="res://Button.gd" id="1_t8wt4"]
+[ext_resource type="Script" path="res://quit.gd" id="2_0t2rx"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_3ecf2"]
+font_size = 100
+
+[node name="endscreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 41.0
+scale = Vector2(28.744, 15.8643)
+color = Color(0.454902, 0.305882, 0.588235, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 365.0
+offset_top = 59.0
+offset_right = 832.0
+offset_bottom = 199.0
+text = "You WIN!!!"
+label_settings = SubResource("LabelSettings_3ecf2")
+
+[node name="retry" type="Button" parent="."]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 271.0
+offset_right = 788.0
+offset_bottom = 393.0
+scale = Vector2(0.493197, 0.555556)
+theme_override_font_sizes/font_size = 70
+text = "Retry!"
+script = ExtResource("1_t8wt4")
+
+[node name="quit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 496.0
+offset_top = 387.0
+offset_right = 788.0
+offset_bottom = 509.0
+scale = Vector2(0.493197, 0.555556)
+theme_override_font_sizes/font_size = 70
+text = "Quit"
+script = ExtResource("2_0t2rx")
+
+[connection signal="pressed" from="retry" to="retry" method="_on_pressed" flags=18]
+[connection signal="pressed" from="quit" to="quit" method="_on_pressed" flags=18]

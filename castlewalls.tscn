@@ -1,0 +1,53 @@
+[gd_scene load_steps=4 format=3 uid="uid://yeh8asfkebp8"]
+
+[ext_resource type="PackedScene" uid="uid://bwnxk36t1yn1y" path="res://castle.tscn" id="1_ov136"]
+[ext_resource type="Texture2D" path="res://10 by 10 orthogonal maze.png" id="2_niqo8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wmkvm"]
+albedo_texture = ExtResource("2_niqo8")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="maze skele2" parent="." instance=ExtResource("1_ov136")]
+
+[node name="CSGBox3D" parent="maze skele2/wall_straight" index="1"]
+visible = false
+
+[node name="CSGBox3D2" parent="maze skele2/wall_corner_A_outside2" index="1"]
+visible = false
+
+[node name="maze skele3" parent="." instance=ExtResource("1_ov136")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
+
+[node name="CSGBox3D" parent="maze skele3/wall_straight" index="1"]
+visible = false
+
+[node name="CSGBox3D2" parent="maze skele3/wall_corner_A_outside2" index="1"]
+visible = false
+
+[node name="maze skele4" parent="." instance=ExtResource("1_ov136")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CSGBox3D" parent="maze skele4/wall_straight" index="1"]
+visible = false
+
+[node name="CSGBox3D2" parent="maze skele4/wall_corner_A_outside2" index="1"]
+visible = false
+
+[node name="maze skele5" parent="." instance=ExtResource("1_ov136")]
+transform = Transform3D(1.19249e-08, 0, -1, 0, 1, 0, 1, 0, 1.19249e-08, 0, 0, 0)
+
+[node name="CSGBox3D" parent="maze skele5" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.283404, 0)
+material = SubResource("StandardMaterial3D_wmkvm")
+
+[node name="CSGBox3D" parent="maze skele5/wall_straight" index="1"]
+visible = false
+
+[node name="CSGBox3D2" parent="maze skele5/wall_corner_A_outside2" index="1"]
+visible = false
+
+[editable path="maze skele2"]
+[editable path="maze skele3"]
+[editable path="maze skele4"]
+[editable path="maze skele5"]

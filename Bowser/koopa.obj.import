@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dgqccqqxelvx5"
+path="res://.godot/imported/koopa.obj-dd8bb3bf2ded00997c69f67d2599354b.mesh"
+
+[deps]
+
+files=["res://.godot/imported/koopa.obj-dd8bb3bf2ded00997c69f67d2599354b.mesh"]
+
+source_file="res://Bowser/koopa.obj"
+dest_files=["res://.godot/imported/koopa.obj-dd8bb3bf2ded00997c69f67d2599354b.mesh", "res://.godot/imported/koopa.obj-dd8bb3bf2ded00997c69f67d2599354b.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

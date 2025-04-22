@@ -17,7 +17,7 @@ grow_vertical = 2
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 0
 offset_right = 40.0
-offset_bottom = 40.0
+offset_bottom = 41.0
 scale = Vector2(28.744, 15.8643)
 color = Color(0.454902, 0.305882, 0.588235, 1)
 

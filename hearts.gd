@@ -33,3 +33,21 @@ func _on_goomba_body_entered(body):
 func _on_node_3d_3_body_entered(body):
 	if body.get_name() == "jennifer":
 		lives -=1
+
+
+func _on_goomba_body_exited(body):
+	pass
+
+
+func _on_thwomp_body_exited(body):
+	if body.get_name() == "jennifer":
+		lives -= 1
+
+
+func _on_scene_body_entered(body):
+	if body.get_name() == "jennifer":
+		lives -= 1
+
+
+func _on_bowser_lifelost():
+	lives -= 1

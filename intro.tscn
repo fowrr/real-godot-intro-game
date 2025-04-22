@@ -1,11 +1,10 @@
-[gd_scene load_steps=44 format=3 uid="uid://07utrn1em5wq"]
+[gd_scene load_steps=59 format=3 uid="uid://07utrn1em5wq"]
 
 [ext_resource type="Material" uid="uid://ch3fkarrcv4u6" path="res://grass_new_from.mariothing.tres" id="1_7gaq6"]
 [ext_resource type="Material" uid="uid://dspjnvkpirclk" path="res://Funky Esboo/new_standard_material_3d.tres" id="2_gpgow"]
 [ext_resource type="PackedScene" uid="uid://c0lok6g2yht6x" path="res://bob.tscn" id="3_r1tvm"]
 [ext_resource type="Script" path="res://bob.gd" id="4_x1hif"]
 [ext_resource type="PackedScene" uid="uid://b2l1obwd3u8lt" path="res://coin.tscn" id="5_8fiyq"]
-[ext_resource type="Script" path="res://coin label.gd" id="5_smnps"]
 [ext_resource type="Texture2D" uid="uid://dqejuk3v2nn0v" path="res://textures/mheart.webp" id="5_tobw3"]
 [ext_resource type="Texture2D" uid="uid://b4lxgn28ftvfo" path="res://textures/dead-heart.png" id="6_arf5y"]
 [ext_resource type="Script" path="res://hearts.gd" id="6_dmqwa"]
@@ -22,11 +21,23 @@
 [ext_resource type="Script" path="res://cutTime.gd" id="15_jax3g"]
 [ext_resource type="Script" path="res://Label.gd" id="17_jlws0"]
 [ext_resource type="Texture2D" uid="uid://yixqndp5n5aq" path="res://textures/grass_texture.tres" id="18_i66n1"]
+[ext_resource type="PackedScene" uid="uid://c6s4qcxfncamx" path="res://boweser.tscn" id="23_7dwpy"]
 [ext_resource type="PackedScene" uid="uid://dpfqh3mpu5e5d" path="res://mushroom.tscn" id="23_leqi5"]
 [ext_resource type="Script" path="res://mushroom.gd" id="24_cmqsp"]
 [ext_resource type="PackedScene" uid="uid://fiyg6xgvj70y" path="res://thwomp.tscn" id="25_hkco1"]
 [ext_resource type="Script" path="res://thwomp.gd" id="26_jht8x"]
 [ext_resource type="PackedScene" uid="uid://cufd86ntiqsxq" path="res://textures/file for castle textures/castle kit 2/nature/mountain_C.gltf" id="27_jiksi"]
+[ext_resource type="PackedScene" uid="uid://tmwa4o61vmd1" path="res://castlewall.tscn" id="28_g3trx"]
+[ext_resource type="Texture2D" uid="uid://cks7vxsf48h1e" path="res://DayEnvironmentHDRI043_2K-HDR.exr" id="29_erx5f"]
+[ext_resource type="Script" path="res://barricade.gd" id="30_qlxra"]
+[ext_resource type="Script" path="res://boweser.gd" id="31_ahvcc"]
+[ext_resource type="Texture2D" uid="uid://cglk1icuv78j2" path="res://Bowser/gold key clipart.png" id="32_01ivs"]
+[ext_resource type="Script" path="res://labelforbarricade.gd" id="32_f5x8u"]
+[ext_resource type="Script" path="res://items.gd" id="32_q3s5n"]
+[ext_resource type="Texture2D" uid="uid://dn54me8xp5ur8" path="res://Bowser/the-silver-key-free-png.webp" id="33_efcjs"]
+[ext_resource type="Texture2D" uid="uid://cwrbgy01403vm" path="res://Bowser/Mega_Mushroom_-_Mario_Kart_Wii.webp" id="34_w2sxp"]
+[ext_resource type="PackedScene" uid="uid://ci5le8md44x7b" path="res://2ndKey.tscn" id="35_feogn"]
+[ext_resource type="Script" path="res://2ndKey.gd" id="36_spk01"]
 
 [sub_resource type="Animation" id="Animation_fgfa8"]
 resource_name = "mushroom_anim"
@@ -239,6 +250,20 @@ _data = {
 [sub_resource type="BoxShape3D" id="BoxShape3D_a0f1v"]
 size = Vector3(14.9821, 16.199, 9.05798)
 
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_gjwhu"]
+panorama = ExtResource("29_erx5f")
+
+[sub_resource type="Sky" id="Sky_v1mjp"]
+sky_material = SubResource("PanoramaSkyMaterial_gjwhu")
+
+[sub_resource type="Environment" id="Environment_c34km"]
+background_mode = 2
+background_energy_multiplier = 0.33
+sky = SubResource("Sky_v1mjp")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_j73b5"]
+size = Vector3(9.48849, 13.0986, 1)
+
 [node name="1st level build" type="Node3D"]
 
 [node name="FLOOR" type="CSGBox3D" parent="."]
@@ -256,6 +281,9 @@ material = ExtResource("2_gpgow")
 transform = Transform3D(-1, 5.24537e-08, 1.49012e-08, -8.74228e-08, -0.6, 1.3027e-15, 0, 0, 1, 0, 2.1, 15.75)
 size = Vector3(32, 6, 0.5)
 material = ExtResource("2_gpgow")
+
+[node name="Area3D" type="Area3D" parent="FLOOR"]
+transform = Transform3D(-0.00236402, 0, -0.635899, 0.633371, -0.0566498, -0.00235462, -0.0566494, -0.633376, 0.0002106, 15.0119, 1.19765, 5.27708)
 
 [node name="CSGBox3D5" type="CSGBox3D" parent="FLOOR"]
 transform = Transform3D(-1, 7.25216e-08, 1.90201e-15, 0, -4.37114e-08, 0.6, 8.74228e-08, 1, 2.62268e-08, 15.8, 2.1, 0.1)
@@ -288,21 +316,6 @@ offset_top = 16.0
 offset_right = 84.0
 offset_bottom = 42.0
 theme_override_font_sizes/font_size = 50
-text = "Coins = 0"
-script = ExtResource("5_smnps")
-
-[node name="time label" type="Label" parent="HUD"]
-layout_mode = 0
-offset_left = 16.0
-offset_top = 70.0
-offset_right = 257.0
-offset_bottom = 142.0
-theme_override_font_sizes/font_size = 50
-text = "Time = 60"
-script = ExtResource("6_y3lyr")
-
-[node name="Timer" type="Timer" parent="HUD/time label"]
-autostart = true
 
 [node name="hearts" type="TextureRect" parent="HUD"]
 layout_mode = 0
@@ -344,13 +357,8 @@ texture = ExtResource("5_tobw3")
 transform = Transform3D(-0.00236402, 0, -0.635899, 0.633371, -0.0566498, -0.00235462, -0.0566494, -0.633376, 0.0002106, 15.0119, 1.79765, 5.27708)
 script = ExtResource("7_0vkbb")
 
-[node name="Timer" type="Timer" parent="Coin"]
-wait_time = 60.0
-one_shot = true
-autostart = true
-
 [node name="jennifer" parent="." instance=ExtResource("3_r1tvm")]
-transform = Transform3D(1, 0, -7.10543e-15, 0, 1, -2.52435e-29, 7.10543e-15, 2.52435e-29, 1, 6.75361, 1.68218, -11.8257)
+transform = Transform3D(1, 0, -7.10543e-15, 0, 1, -2.52435e-29, 7.10543e-15, 2.52435e-29, 1, 3.37945, 1.6, -9.01323)
 script = ExtResource("4_x1hif")
 
 [node name="megashroom_player" type="AnimationPlayer" parent="jennifer"]
@@ -416,11 +424,13 @@ one_shot = true
 script = ExtResource("15_jax3g")
 
 [node name="Label" type="Label" parent="cutsceneCam"]
-offset_left = 51.0
-offset_top = 401.0
-offset_right = 678.0
-offset_bottom = 427.0
-text = "Go get bowser so you can save your queen, through that castle (need mushroom)"
+offset_left = 111.0
+offset_top = 541.0
+offset_right = 1424.0
+offset_bottom = 755.0
+theme_override_font_sizes/font_size = 34
+text = "Go through that gate to enter Bowsers castle. 
+Go defeat him before it's too late!"
 max_lines_visible = 0
 script = ExtResource("17_jlws0")
 
@@ -436,7 +446,7 @@ use_collision = true
 size = Vector3(0.971389, 0.230226, 1)
 
 [node name="Rocks-large" type="MeshInstance3D" parent="."]
-transform = Transform3D(3, 0, 0, 0, 4.90814, -1.71728, 0, 0.954045, 8.83464, -2.48711, 2.42927, -21.31)
+transform = Transform3D(3, 0, 0, 0, 4.62115, -1.2007, 0, 0.89826, 6.17705, -2.48711, 2.42927, -21.31)
 mesh = SubResource("ArrayMesh_umwqj")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="Rocks-large"]
@@ -445,7 +455,7 @@ use_collision = true
 size = Vector3(1, 1.06782, 1.08861)
 
 [node name="Rocks-large2" type="MeshInstance3D" parent="."]
-transform = Transform3D(3, 0, 0, 0, 4.90814, -1.71728, 0, 0.954045, 8.83464, -8.6727, 2.42927, -21.31)
+transform = Transform3D(3, 0, 0, 0, 4.58524, -1.13606, 0, 0.89128, 5.84453, -8.6727, 2.42927, -21.31)
 mesh = SubResource("ArrayMesh_umwqj")
 
 [node name="CSGBox3D" type="CSGBox3D" parent="Rocks-large2"]
@@ -454,48 +464,152 @@ use_collision = true
 size = Vector3(1, 1.06782, 1.08861)
 
 [node name="mushroom" parent="." instance=ExtResource("23_leqi5")]
-transform = Transform3D(0.0015558, 0, 0.0325495, 0, 0.0441401, 0, -0.0325082, 0, 0.00155777, 4.24552, 2.0813, -14.3806)
+transform = Transform3D(0.0015558, 0, 0.0325495, 0, 0.0441401, 0, -0.0325082, 0, 0.00155777, 4.24552, 4.031, -32.6745)
 script = ExtResource("24_cmqsp")
 
-[node name="Node3D3" parent="." instance=ExtResource("25_hkco1")]
+[node name="thwomp" parent="." instance=ExtResource("25_hkco1")]
 transform = Transform3D(0.22001, 0, 0, 0, 0.22001, 0, 0, 0, 0.22001, -6.61798, 5.65238, -11.5127)
 script = ExtResource("26_jht8x")
 
-[node name="thwomp-up-n-down" type="AnimationPlayer" parent="Node3D3"]
+[node name="CollisionShape3D" parent="thwomp" index="0"]
+transform = Transform3D(0.999999, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, 0, 0, 1.14441e-05)
+
+[node name="MeshInstance3D" parent="thwomp/CollisionShape3D" index="0"]
+transform = Transform3D(0.912699, 0, -0.474979, 0, 1, 0, 0.464442, 0, 0.933407, 0, -10.8563, 1.52588e-05)
+
+[node name="thwomp-up-n-down" type="AnimationPlayer" parent="thwomp"]
 libraries = {
 "": SubResource("AnimationLibrary_vff4c")
 }
 
-[node name="StaticBody3D" type="StaticBody3D" parent="Node3D3"]
+[node name="StaticBody3D" type="StaticBody3D" parent="thwomp"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 7.62939e-06)
 physics_material_override = SubResource("PhysicsMaterial_jnc7y")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Node3D3/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="thwomp/StaticBody3D"]
 shape = SubResource("BoxShape3D_a0f1v")
 
 [node name="mountain_C" parent="." instance=ExtResource("27_jiksi")]
-transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 5.45735, -1.78422, 0.820529, -20.5835)
+transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 4.71012, -1.78422, 0.820529, -20.5835)
 
 [node name="mountain_C2" parent="." instance=ExtResource("27_jiksi")]
-transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 5.45735, -9.78855, 0.820529, -20.5835)
+transform = Transform3D(3.34119, 0, 0, 0, 3.80366, 0, 0, 0, 4.89641, -9.78855, 0.820529, -20.5835)
 
-[connection signal="thwomp" from="HUD/time label" to="Node3D3" method="_on_time_label_thwomp"]
-[connection signal="timeout" from="HUD/time label/Timer" to="HUD/time label" method="_on_timer_timeout"]
+[node name="maze skele2" parent="." instance=ExtResource("28_g3trx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.06368, 2.34585, -40.8538)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_c34km")
+
+[node name="bowser" parent="." instance=ExtResource("23_7dwpy")]
+transform = Transform3D(-0.75, 0, -1.13247e-07, 0, 0.75, 0, 1.13247e-07, 0, -0.75, -11.2963, 4, -47)
+script = ExtResource("31_ahvcc")
+
+[node name="barricade" type="Area3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7, 0, -24)
+script = ExtResource("30_qlxra")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="barricade"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.376522)
+visible = false
+use_collision = true
+size = Vector3(10, 18, 0.002)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="barricade"]
+shape = SubResource("BoxShape3D_j73b5")
+
+[node name="Label" type="Label" parent="barricade"]
+offset_left = 691.0
+offset_top = 364.0
+offset_right = 1150.0
+offset_bottom = 538.0
+theme_override_font_sizes/font_size = 40
+text = "MUST GET SECOND KEY!
+MUST GET SECOND KEY!
+MUST GET SECOND KEY!"
+max_lines_visible = 0
+script = ExtResource("32_f5x8u")
+
+[node name="items" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("32_q3s5n")
+
+[node name="TextureRect" type="TextureRect" parent="items"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 118.0
+offset_right = 105.0
+offset_bottom = 195.0
+texture = ExtResource("32_01ivs")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="items"]
+layout_mode = 0
+offset_left = 119.0
+offset_top = 117.0
+offset_right = 221.0
+offset_bottom = 202.0
+texture = ExtResource("33_efcjs")
+expand_mode = 1
+
+[node name="TextureRect3" type="TextureRect" parent="items"]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 112.0
+offset_right = 338.0
+offset_bottom = 208.0
+texture = ExtResource("34_w2sxp")
+expand_mode = 1
+
+[node name="time label" type="Label" parent="."]
+offset_left = 13.0
+offset_top = 11.0
+offset_right = 254.0
+offset_bottom = 83.0
+theme_override_font_sizes/font_size = 50
+text = "Time = 60"
+script = ExtResource("6_y3lyr")
+
+[node name="Timer" type="Timer" parent="time label"]
+autostart = true
+
+[node name="key" parent="." instance=ExtResource("35_feogn")]
+transform = Transform3D(-0.0677973, 0.461071, 4.81729e-16, -0.461071, -0.0677973, 3.27611e-15, 3.31134e-15, 1.17642e-29, 0.466029, -14.2351, 2.01849, -6.1629)
+script = ExtResource("36_spk01")
+
 [connection signal="body_entered" from="Coin" to="Coin" method="_on_body_entered"]
-[connection signal="coinCollected" from="Coin" to="HUD/coin label" method="_on_coin_coin_collected"]
 [connection signal="coinCollected" from="Coin" to="jennifer" method="_on_coin_coin_collected"]
 [connection signal="coinCollected" from="Coin" to="Metal-gate2/AnimationPlayer" method="_on_coin_coin_collected"]
 [connection signal="coinCollected" from="Coin" to="cutsceneCam" method="_on_coin_coin_collected"]
 [connection signal="coinCollected" from="Coin" to="cutsceneCam/cutTime" method="_on_coin_coin_collected"]
 [connection signal="coinCollected" from="Coin" to="cutsceneCam/Label" method="_on_coin_coin_collected"]
-[connection signal="timeout" from="Coin/Timer" to="Coin" method="_on_timer_timeout"]
+[connection signal="coinCollected" from="Coin" to="items" method="_on_coin_coin_collected"]
 [connection signal="body_entered" from="goomba" to="HUD/hearts" method="_on_goomba_body_entered"]
+[connection signal="body_exited" from="goomba" to="HUD/hearts" method="_on_goomba_body_exited"]
 [connection signal="timeout" from="cutsceneCam/cutTime" to="HUD/coin label" method="_on_cut_time_timeout"]
 [connection signal="timeout" from="cutsceneCam/cutTime" to="jennifer" method="_on_timer_timeout"]
 [connection signal="timeout" from="cutsceneCam/cutTime" to="cutsceneCam" method="_on_timer_timeout"]
 [connection signal="timeout" from="cutsceneCam/cutTime" to="cutsceneCam/Label" method="_on_cut_time_timeout"]
 [connection signal="body_entered" from="mushroom" to="mushroom" method="_on_body_entered"]
 [connection signal="mushroom_collected" from="mushroom" to="jennifer/megashroom_player" method="_on_mushroom_mushroom_collected"]
-[connection signal="body_entered" from="Node3D3" to="HUD/hearts" method="_on_node_3d_3_body_entered"]
+[connection signal="mushroom_collected" from="mushroom" to="bowser" method="_on_mushroom_mushroom_collected"]
+[connection signal="mushroom_collected" from="mushroom" to="items" method="_on_mushroom_mushroom_collected"]
+[connection signal="body_exited" from="thwomp" to="HUD/hearts" method="_on_thwomp_body_exited"]
+[connection signal="lifelost" from="bowser" to="HUD/hearts" method="_on_bowser_lifelost"]
+[connection signal="body_entered" from="bowser/Area3D" to="bowser" method="_on_area_3d_body_entered"]
+[connection signal="body_exited" from="bowser/Area3D" to="bowser" method="_on_area_3d_body_exited"]
+[connection signal="body_entered" from="barricade" to="barricade/Label" method="_on_barricade_body_entered"]
+[connection signal="body_exited" from="barricade" to="barricade/Label" method="_on_barricade_body_exited"]
+[connection signal="thwomp" from="time label" to="thwomp" method="_on_time_label_thwomp"]
+[connection signal="timeout" from="time label/Timer" to="time label" method="_on_timer_timeout"]
+[connection signal="Open" from="key" to="barricade" method="_on_key_open"]
+[connection signal="Open" from="key" to="items" method="_on_key_open"]
+[connection signal="body_entered" from="key" to="key" method="_on_body_entered"]
 
 [editable path="jennifer"]
-[editable path="Node3D3"]
+[editable path="goomba"]
+[editable path="thwomp"]
+[editable path="bowser"]

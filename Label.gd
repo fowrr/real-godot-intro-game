@@ -11,8 +11,7 @@ func _process(delta):
 	pass
 
 
-func _on_coin_coin_collected():
-	set_max_lines_visible(-1)
+
 
 
 
@@ -20,3 +19,7 @@ func _on_coin_coin_collected():
 func _on_cut_time_timeout():
 	set_max_lines_visible(0)
 
+
+
+func _on_coin_coin_collected():
+	set_max_lines_visible(-1)

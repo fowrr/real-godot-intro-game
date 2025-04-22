@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bag4dcyq270a4"]
+[gd_scene load_steps=4 format=3 uid="uid://bag4dcyq270a4"]
 
 [ext_resource type="Script" path="res://start botten.gd" id="1_gdl1n"]
 [ext_resource type="Script" path="res://quit botten.gd" id="2_1k2su"]
+[ext_resource type="Script" path="res://how-to.gd" id="3_oew0e"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -49,5 +50,15 @@ theme_override_font_sizes/font_size = 40
 text = "QUIT"
 script = ExtResource("2_1k2su")
 
+[node name="start botten2" type="Button" parent="."]
+offset_left = 417.0
+offset_top = 516.0
+offset_right = 728.0
+offset_bottom = 579.0
+theme_override_font_sizes/font_size = 40
+text = "HOW-TO-PLAY"
+script = ExtResource("3_oew0e")
+
 [connection signal="pressed" from="start botten" to="start botten" method="_on_pressed"]
 [connection signal="pressed" from="quit botten" to="quit botten" method="_on_pressed"]
+[connection signal="pressed" from="start botten2" to="start botten2" method="_on_pressed"]

@@ -1,0 +1,110 @@
+[gd_scene load_steps=9 format=3 uid="uid://tmwa4o61vmd1"]
+
+[ext_resource type="Texture2D" uid="uid://b47daq2crschm" path="res://textures/Bricks066_1K-JPG_Color.jpg" id="2_xjeqy"]
+[ext_resource type="Texture2D" uid="uid://pnmvdfg3c2p3" path="res://6 by 6 orthogonal maze.png" id="3_hfy2s"]
+[ext_resource type="PackedScene" uid="uid://curigwwwdg1eo" path="res://wall_straight.tscn" id="4_nv8ha"]
+[ext_resource type="PackedScene" uid="uid://dqtrjmb2cqe6c" path="res://textures/file for castle textures/castle kit 2/blue/gate.tscn" id="5_h31lx"]
+[ext_resource type="PackedScene" uid="uid://bsjebtc1h6lhe" path="res://textures/file for castle textures/castle kit 2/blue/tower.tscn" id="6_bu2ce"]
+[ext_resource type="PackedScene" uid="uid://capg7dbiihpwt" path="res://textures/file for castle textures/castle kit 2/blue/building_castle_blue.gltf" id="8_7jbmg"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lgwhl"]
+albedo_texture = ExtResource("2_xjeqy")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mmcoj"]
+albedo_texture = ExtResource("3_hfy2s")
+
+[node name="maze skele2" type="Node3D"]
+
+[node name="wall_straight4" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(2.56341e-07, 0, -1.62, 0, 1, 0, 1.62, 0, 1.85336e-07, -15.8357, 0.880086, -0.0453568)
+
+[node name="wall_straight5" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(1.62, 0, 2.56149e-07, 0, 1, 0, -3.27153e-07, 0, 1.62, 0.164333, 0.880086, -15.0454)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+material_override = SubResource("StandardMaterial3D_lgwhl")
+use_collision = true
+size = Vector3(32, 0.5, 32)
+material = SubResource("StandardMaterial3D_mmcoj")
+
+[node name="building_tower_base_blue" parent="." instance=ExtResource("6_bu2ce")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 15.6806, 0, 15.9436)
+
+[node name="building_tower_base_blue2" parent="." instance=ExtResource("6_bu2ce")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, 15.6806, 0, -15.0564)
+
+[node name="building_tower_base_blue3" parent="." instance=ExtResource("6_bu2ce")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, -15.893, 0, -15.3105)
+
+[node name="building_tower_base_blue4" parent="." instance=ExtResource("6_bu2ce")]
+transform = Transform3D(2.5, 0, 0, 0, 2.5, 0, 0, 0, 2.5, -15.893, 0, 15.4124)
+
+[node name="wall_straight" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.40841, 0.769008, 15.8734)
+
+[node name="wall_straight" parent="wall_straight" instance=ExtResource("4_nv8ha")]
+transform = Transform3D(0.339088, 0, 0, 0, 1, 0, 0, 0, 1, -18.7246, 0.0534429, -0.152218)
+
+[node name="wall_straight_gate2" parent="." instance=ExtResource("5_h31lx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.88661, 0.217732, 15.9222)
+
+[node name="wall_straight2" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-7.08124e-08, 0, 1, 0, 1, 0, -1.62, 0, -4.37114e-08, 15.7289, 0.538016, 0.435444)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.98038, 0.183013, 0.0732233, -0.0776328, 0.017037, 0.996836, 0.181186, -0.982963, 0.0309105, 0, 26, 9)
+light_indirect_energy = 4.655
+
+[node name="wall_straight6" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-1.25045e-08, 0, 1, 0, 1, 0, -0.28607, 0, -4.37114e-08, -0.44032, 0.822451, 7.5455)
+
+[node name="wall_straight15" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-1.25045e-08, 0, 1, 0, 1, 0, -0.28607, 0, -4.37114e-08, 10.5393, 0.822451, 2.5455)
+
+[node name="wall_straight16" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-1.25045e-08, 0, 1, 0, 1, 0, -0.28607, 0, -4.37114e-08, 10.5393, 0.822451, -11.4545)
+
+[node name="wall_straight17" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-1.25045e-08, 0, 1, 0, 1, 0, -0.28607, 0, -4.37114e-08, -0.0471573, 0.822451, -7.4545)
+
+[node name="wall_straight18" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.285879, -0.0364944, -0.00257626, -0.0104411, 0.999332, 0.00154701, 0.000720344, 0.00164, -0.999995, 7.50688, 0.876023, -5.07018)
+
+[node name="wall_straight19" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.285879, -0.0364944, -0.00257626, -0.0104411, 0.999332, 0.00154701, 0.000720344, 0.00164, -0.999995, -13.1087, 0.876023, -5.07018)
+
+[node name="wall_straight7" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-1.0948, 0, -8.74228e-08, 0, 1, 0, 9.57109e-08, 0, -1, -0.388087, 0.822451, 10.5455)
+
+[node name="wall_straight8" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.78826, 0, -8.74228e-08, 0, 1, 0, 6.89118e-08, 0, -1, 7.93243, 0.822451, 5.5455)
+
+[node name="wall_straight9" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.551782, 0, -8.74228e-08, 0, 1, 0, 4.82383e-08, 0, -1, -0.0289922, 0.822451, 0.5455)
+
+[node name="wall_straight10" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.551782, 0, -8.74228e-08, 0, 1, 0, 4.82383e-08, 0, -1, -9.96106, 0.822451, 5.5455)
+
+[node name="wall_straight11" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-0.551782, 0, -8.74228e-08, 0, 1, 0, 4.82383e-08, 0, -1, -5.19974, 0.822451, -10.4545)
+
+[node name="wall_straight12" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-2.41191e-08, 0, 1, 0, 1, 0, -0.551782, 0, -4.37114e-08, 5.09526, 0.822451, -5.3017)
+
+[node name="wall_straight13" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-2.41191e-08, 0, 1, 0, 1, 0, -0.551782, 0, -4.37114e-08, -5.32287, 0.822451, 0.134643)
+
+[node name="wall_straight14" parent="." instance=ExtResource("4_nv8ha")]
+transform = Transform3D(-2.41191e-08, 0, 1, 0, 1, 0, -0.551782, 0, -4.37114e-08, -10.3229, 0.822451, -4.86536)
+
+[node name="building_castle_blue" parent="." instance=ExtResource("8_7jbmg")]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, -21.424, 1.60824, 10.7394)
+
+[node name="building_castle_blue2" parent="." instance=ExtResource("8_7jbmg")]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, -14.6941, 1.60824, -21.2756)
+
+[node name="building_castle_blue3" parent="." instance=ExtResource("8_7jbmg")]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 15.5326, -0.00641346, -21.8121)
+
+[node name="building_castle_blue4" parent="." instance=ExtResource("8_7jbmg")]
+transform = Transform3D(6, 0, 0, 0, 6, 0, 0, 0, 6, 21.5982, 1.60824, 4.56675)

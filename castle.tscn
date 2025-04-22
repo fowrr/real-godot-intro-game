@@ -1,51 +1,45 @@
-[gd_scene load_steps=6 format=3 uid="uid://bwnxk36t1yn1y"]
+[gd_scene load_steps=4 format=3 uid="uid://bwnxk36t1yn1y"]
 
-[ext_resource type="Texture2D" uid="uid://ccw43amxi3ea6" path="res://10 by 10 orthogonal maze.png" id="1_0j36b"]
 [ext_resource type="PackedScene" uid="uid://c2u2m01u44t86" path="res://textures/file for castle textures/castle kit 2/neutral/wall_straight.gltf" id="2_dolxp"]
 [ext_resource type="PackedScene" uid="uid://hqrsqei0gc4r" path="res://textures/file for castle textures/castle kit 2/neutral/wall_corner_A_outside.gltf" id="3_dn5vc"]
 [ext_resource type="PackedScene" uid="uid://c8xmrpd24c01t" path="res://textures/file for castle textures/castle kit 2/neutral/wall_corner_A_inside.gltf" id="4_h4uwv"]
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1wg2n"]
-albedo_texture = ExtResource("1_0j36b")
-
 [node name="maze skele2" type="Node3D"]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
+use_collision = true
 size = Vector3(32, 0.5, 32)
-material = SubResource("StandardMaterial3D_1wg2n")
 
 [node name="wall_straight" parent="." instance=ExtResource("2_dolxp")]
-transform = Transform3D(14.2432, 0, 0, 0, 4.25278, 0, 0, 0, 1, 0.0208364, 0.250316, 15.6726)
+transform = Transform3D(14.2432, 0, 0, 0, 4.25278, 0, 0, 0, 1, 0.0705858, 0.250358, 16.1793)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="wall_straight"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.90333, 0, 0, 0)
-visible = false
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.90333, 0, 0.0857267, 0.045208)
+use_collision = true
 size = Vector3(2.00147, 1.72363, 0.522188)
 
-[node name="wall_corner_A_outside" parent="." instance=ExtResource("3_dn5vc")]
-transform = Transform3D(0.497716, 0, -0.86734, 0, 4.59289, 0, 0.86734, 0, 0.497716, -15.0742, -0.0227428, 15.7013)
+[node name="wall_straight3" parent="wall_straight" instance=ExtResource("2_dolxp")]
+transform = Transform3D(-0.977112, 0, -6.13787e-09, 0, 1.07264, 0, 1.21668e-06, 0, -1, -0.00199775, -0.0588594, -0.145687)
 
 [node name="wall_corner_A_outside2" parent="." instance=ExtResource("3_dn5vc")]
-transform = Transform3D(-0.0880424, 0, -0.996117, 0, 4.59289, 0, 0.996117, 0, -0.0880424, -15.7223, 0.0354027, 15.0578)
+transform = Transform3D(-0.0880424, 0, -0.996117, 0, 4.59289, 0, 0.996117, 0, -0.0880424, -15.6726, 0.0354447, 15.5242)
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="wall_corner_A_outside2"]
-transform = Transform3D(-0.0880425, 0, 0.996117, 0, 1, 0, -0.996117, 0, -0.0880425, -0.124535, 0.311651, -0.778399)
+transform = Transform3D(-0.0880425, 0, 0.996118, 0, 1, 0, -0.996118, 0, -0.0880425, 0.108452, 0.468567, -0.798991)
+use_collision = true
 size = Vector3(1.88805, 1, 1.91377)
 
 [node name="CSGCylinder3D" type="CSGCylinder3D" parent="wall_corner_A_outside2/CSGBox3D2"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.741775, 0.0963025, -0.773434)
+transform = Transform3D(1, 0, -4.26326e-14, 0, 1, 0, 4.26326e-14, 0, 1, 0.988672, 0.0963025, -0.932123)
 operation = 2
 radius = 1.17915
 sides = 64
 
+[node name="wall_corner_A_outside" parent="wall_corner_A_outside2" instance=ExtResource("3_dn5vc")]
+transform = Transform3D(0.820152, 0, 0.572146, 0, 1, 0, -0.572146, 0, 0.820152, 0.583941, -0.0126599, -0.702238)
+
 [node name="wall_corner_A_inside" parent="." instance=ExtResource("4_h4uwv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.32095, 0, 19.9279)
+transform = Transform3D(0.489382, 0, -0.872069, 0, 4.5373, 0, 0.872069, 0, 0.489382, -14.8055, 0.0199504, 16.0392)
 
-[node name="wall_corner_A_inside2" parent="." instance=ExtResource("4_h4uwv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.97014, 0, 20.3164)
-
-[node name="wall_corner_A_outside3" parent="." instance=ExtResource("3_dn5vc")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.64625, 0, 21.2995)
-
-[node name="wall_straight2" parent="." instance=ExtResource("2_dolxp")]
-transform = Transform3D(-13.9172, 0, -8.74229e-08, 0, 4.56171, 0, 1.21668e-06, 0, -1, -0.00761795, 0, 15.4391)
+[node name="wall_corner_A_inside3" parent="wall_corner_A_inside" instance=ExtResource("4_h4uwv")]
+transform = Transform3D(0.859263, 0, -0.511533, 0, 1, 0, 0.511533, 0, 0.859263, -0.95072, -0.000454903, 0.230952)

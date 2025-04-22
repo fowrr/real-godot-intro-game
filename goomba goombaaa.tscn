@@ -2,7 +2,8 @@
 
 [ext_resource type="ArrayMesh" uid="uid://bv60r8d0unlc" path="res://Funky Esboo/goomba/Goomba.obj" id="1_vsnxj"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_kewfl"]
+[sub_resource type="BoxShape3D" id="BoxShape3D_sc6pm"]
+size = Vector3(102.847, 108.092, 96.2361)
 
 [node name="goomba" type="Area3D"]
 
@@ -11,5 +12,5 @@ transform = Transform3D(0.00888451, 0, 0, 0, 0.00888451, 0, 0, 0, 0.00888451, 0.
 mesh = ExtResource("1_vsnxj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(0.965713, 0, 0, 0, 0.965713, 0, 0, 0, 0.965713, 0, 0, 0)
-shape = SubResource("BoxShape3D_kewfl")
+transform = Transform3D(0.00888451, 0, 0, 0, 0.00888451, 0, 0, 0, 0.00888451, 0.0112289, 0.144585, -0.0212719)
+shape = SubResource("BoxShape3D_sc6pm")
