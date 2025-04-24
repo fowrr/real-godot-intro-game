@@ -28,12 +28,12 @@ script = ExtResource("1_dbu5y")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 layout_mode = 0
-offset_left = 40.0
-offset_top = 219.0
-offset_right = 854.0
-offset_bottom = 734.0
+offset_left = 47.0
+offset_top = 179.0
+offset_right = 832.0
+offset_bottom = 694.0
 theme_override_font_sizes/normal_font_size = 40
-text = "Help Mario navigate through twisting 3D mazes to collect key items and reach the exit. MUST COLLECT ALL ITEMS TO WIN. AWSD or direction keys to move, hold and drag right click to move camera, and go defeat BOWSER!!"
+text = "Help Mario navigate through twisting 3D mazes to collect key items and reach the exit. Enemy thwomp spawns at 150 seconds. MUST COLLECT ALL ITEMS TO WIN. AWSD or direction keys to move, hold and drag right click to move camera, and go defeat BOWSER!! "
 
 [node name="RichTextLabel2" type="RichTextLabel" parent="."]
 layout_mode = 0

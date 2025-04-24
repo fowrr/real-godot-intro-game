@@ -12,18 +12,6 @@ res://endscreen.tscn
 res://goomba goombaaa.tscn
 res://thwomp.tscn
 res://boweser.tscn
-res://boweser.gd
-res://BACK.gd
 res://how-to.tscn
-res://start botten.gd
-res://how-to.gd
-res://labelforbarricade.gd
 res://win.tscn
 res://2ndKey.tscn
-res://Label.gd
-res://newcoin.gd
-res://time label.gd
-res://hearts.gd
-res://2ndKey.gd
-res://barricade.gd
-res://items.gd

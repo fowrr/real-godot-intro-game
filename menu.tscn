@@ -51,6 +51,7 @@ text = "QUIT"
 script = ExtResource("2_1k2su")
 
 [node name="start botten2" type="Button" parent="."]
+layout_mode = 0
 offset_left = 417.0
 offset_top = 516.0
 offset_right = 728.0

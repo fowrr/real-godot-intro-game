@@ -20,14 +20,13 @@ skeleton = NodePath("../..")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_rreyg")
 
-[node name="axis" type="CSGCylinder3D" parent="."]
+[node name="axis" type="Node3D" parent="."]
 transform = Transform3D(0.544344, 0, 0, 0, 0.265871, 0, 0, 0, 0.544344, 0, 0, 0)
-visible = false
 
 [node name="SpringArm3D" type="SpringArm3D" parent="axis"]
 transform = Transform3D(-1.53089, 6.69178e-08, -1.15905e-07, -9.66673e-09, 2.65205, 1.65885, 1.33486e-07, 0.959509, -1.20913, 0, 0.0466499, 0.148364)
 spring_length = 3.5
 
 [node name="Camera" type="Camera3D" parent="axis/SpringArm3D"]
-transform = Transform3D(1, -1.13103e-08, -6.26636e-09, 2.55674e-09, 0.94863, -0.0634289, 1.73983e-09, 0.11973, 1.04615, 0, 0.0413237, 3.53361)
+transform = Transform3D(1, -1.13106e-08, -6.2665e-09, 2.55674e-09, 0.948629, -0.0634316, 1.73983e-09, 0.11973, 1.04615, 0, 0.0413237, 3.53361)
 script = ExtResource("2_r34pb")
