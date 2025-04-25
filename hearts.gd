@@ -13,6 +13,7 @@ func _process(delta):
 	elif lives == 1:
 		$heart2.set_texture(null)
 	elif lives == 0:
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 		get_tree().change_scene_to_file("res://endscreen.tscn")
 		
 

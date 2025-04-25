@@ -21,12 +21,12 @@ var mouse_sens = 0.4
 		
 
 		
-func _input(event):  		
+func _input(event):
 	if event is InputEventMouseMotion and Input.is_action_pressed("mouse_right"):
-			rotate_y(deg_to_rad(-event.relative.x*mouse_sens))
-			$CSGSphere3D.rotate_y(deg_to_rad(event.relative.x*mouse_sens))
-			$axis.rotate_x(deg_to_rad(event.relative.y*0.3))
-			$axis.rotation.x = clamp($axis.rotation.x, deg_to_rad(-60.0), deg_to_rad(30.0))
+		rotate_y(deg_to_rad(-event.relative.x*mouse_sens))
+		$CSGSphere3D.rotate_y(deg_to_rad(event.relative.x*mouse_sens))
+		$axis.rotate_x(deg_to_rad(event.relative.y*0.3))
+		$axis.rotation.x = clamp($axis.rotation.x, deg_to_rad(-30.0), deg_to_rad(30.0))
 	
 			
 func _physics_process(delta):
