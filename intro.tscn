@@ -475,10 +475,7 @@ transform = Transform3D(0.22001, 0, 0, 0, 0.22001, 0, 0, 0, 0.22001, -6.61798, 5
 script = ExtResource("26_jht8x")
 
 [node name="CollisionShape3D" parent="thwomp" index="0"]
-transform = Transform3D(0.999999, 0, 0, 0, 0.999999, 0, 0, 0, 0.999999, 0, 0, 1.14441e-05)
-
-[node name="MeshInstance3D" parent="thwomp/CollisionShape3D" index="0"]
-transform = Transform3D(0.912699, 0, -0.474979, 0, 1, 0, 0.464442, 0, 0.933407, 0, -10.8563, 1.52588e-05)
+transform = Transform3D(1.2, 0, 0, 0, 1.09367, 0, 0, 0, 0.999999, 0, 0, 1.14441e-05)
 
 [node name="thwomp-up-n-down" type="AnimationPlayer" parent="thwomp"]
 libraries = {
@@ -600,7 +597,7 @@ script = ExtResource("36_spk01")
 [connection signal="mushroom_collected" from="mushroom" to="jennifer/megashroom_player" method="_on_mushroom_mushroom_collected"]
 [connection signal="mushroom_collected" from="mushroom" to="bowser" method="_on_mushroom_mushroom_collected"]
 [connection signal="mushroom_collected" from="mushroom" to="items" method="_on_mushroom_mushroom_collected"]
-[connection signal="body_exited" from="thwomp" to="HUD/hearts" method="_on_thwomp_body_exited"]
+[connection signal="body_entered" from="thwomp" to="HUD/hearts" method="_on_thwomp_body_entered"]
 [connection signal="lifelost" from="bowser" to="HUD/hearts" method="_on_bowser_lifelost"]
 [connection signal="body_entered" from="bowser/Area3D" to="bowser" method="_on_area_3d_body_entered"]
 [connection signal="body_exited" from="bowser/Area3D" to="bowser" method="_on_area_3d_body_exited"]
