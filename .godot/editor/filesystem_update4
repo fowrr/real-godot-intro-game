@@ -17,3 +17,6 @@ res://how-to.tscn
 res://win.tscn
 res://2ndKey.tscn
 res://hearts.gd
+res://endscreen.gd
+res://how-to2.gd
+res://win.gd
