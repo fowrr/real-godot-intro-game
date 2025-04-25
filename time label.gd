@@ -1,6 +1,6 @@
 extends Label
 signal thwomp
-var timeLeft = 180
+var timeLeft = 270
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -17,7 +17,7 @@ func _process(delta):
 func _on_timer_timeout():
 	timeLeft -= 1
 	text = "Time = " + str(timeLeft)
-	if timeLeft == 150:
+	if timeLeft == 255:
 		emit_signal("thwomp")
 	elif timeLeft == 0:
 		$Timer.stop()
