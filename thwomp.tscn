@@ -10,7 +10,6 @@ size = Vector3(14.581, 16, 10.73)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 shape = SubResource("BoxShape3D_le2nd")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="CollisionShape3D"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.912699, 0, -0.474979, 0, 1, 0, 0.464442, 0, 0.933407, 0, -10.8563, 0)
 mesh = ExtResource("1_w4t6q")
-skeleton = NodePath("../..")
